@@ -244,7 +244,7 @@ a:hover {
 .photo-content-image {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 40px;
+	margin-top: 50px;
 	width:500px;
 	height:165px;
 	
@@ -267,11 +267,11 @@ a:hover {
 }
 .photo-content-image p {
 	background-image: url('../images/transp-bg.png');
-	width:102%;
+	width:99%;
 	bottom:0;
 	left:0;
 	position: absolute;
-	padding: 10px 10px 8px 3px;
+	padding: 10px 2px 8px 3px;
 	font-size: 20pt;
 	font-family: 'DekarRegular';
 	text-transform: uppercase;
@@ -315,50 +315,7 @@ fieldset {
  margin:0; padding:0; border:1px solid #F00; }
  */
 
-/******************* TEST SECTION ***********************
- *
 
- #test div {
- border: red 1px solid;
- }
- */
-#test #container {
-	width: 500px;
-	height:500px;
-	margin: 50px auto;
-	background-color: #FEFEFE;
-	border-bottom-color: #AAA;
-	border-radius: 10px;
-}
-#test .bigbutton {
-	width: 200px;
-	height:200px;
-	float:left;
-	text-align: center;
-	margin:25px 24px;
-	border-radius: 30px;
-	-moz-border-radius: 30px;
-	-webkit-border-radius: 30px;
-	opacity:0.7;
-}
-#test .bigbutton:hover {
-	opacity:1;
-}
-#test .bigbutton p {
-	vertical-align: middle;
-	font-size: 1.7em;
-	font-weight: bold;
-	text-shadow: #BBB 0px 1px 1px;
-	margin: 30px;
-}
-#test .home {
-	background-color: #338fc3;
-	color:white;
-}
-#test .twitter {
-	background-color: #efa243;
-	color:white;
-}
 /******************* ************* ***********************
  * INFO SECTION
  ********************************************************/
