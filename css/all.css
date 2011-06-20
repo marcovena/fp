@@ -137,6 +137,8 @@ a:hover {
 /*     HEADER        */
 /*-------------------*/
 #header {
+	
+	margin-top: 50px;
 	width:994px;
 	height: 120px;
 }
@@ -211,7 +213,7 @@ a:hover {
 	height: 442px;
 }
 #gallery-holder .slideshow-frame {
-	background:url("../images/slideshow-frame.png") no-repeat scroll 0 0 transparent;
+	
 	height:442px;
 	position:absolute;
 	top:0;
@@ -225,25 +227,8 @@ a:hover {
 	top:0;
 	width:719px
 }
-#gallery-holder .navigation a {
-	height:92px;
-	left:0;
-	background:url("../images/sprite.png") no-repeat scroll 0 0 transparent;
-	position:absolute;
-	top:50%;
-	width:47px;
-	z-index:15;
-}
-#gallery-holder .navigation a.prev {
-	background-position:-6px -103px;
-	margin-top:-44px;
-}
-#gallery-holder .navigation a.next {
-	background-position:-65px -103px;
-	left:auto;
-	right:0;
-	margin-top:-44px;
-}
+
+
 #footer {
 	text-align: center;
 	margin: 60px 0;
