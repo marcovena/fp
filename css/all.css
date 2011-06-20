@@ -247,9 +247,22 @@ a:hover {
 	margin-top: 40px;
 	width:500px;
 	height:165px;
-	background-image: url('../images/iceland.jpg');
+	
 	position: relative;
 }
+.photo-content-image-1{
+	background-image: url('../images/iceland.jpg');
+}
+
+.photo-content-image-2{
+	background-image: url('../images/road.jpg');
+}
+
+.photo-content-image-3{
+	background-image: url('../images/land-main.jpg');
+	background-position: top center;
+}
+
 .photo-content-image img {
 }
 .photo-content-image p {
