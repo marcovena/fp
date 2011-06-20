@@ -271,7 +271,7 @@ a:hover {
 	bottom:0;
 	left:0;
 	position: absolute;
-	padding: 10px 2px 8px 3px;
+	padding: 10px 2px 8px 8px;
 	font-size: 20pt;
 	font-family: 'DekarRegular';
 	text-transform: uppercase;
