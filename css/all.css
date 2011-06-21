@@ -284,32 +284,49 @@ a:hover {
 #contact-wrapper {
 	margin:50px auto;
 	width: 600px;
+	
+	
+	
+	
 }
 #enquiry-form label {
+	margin:3px;
 	font-size: 1.7em;
 	text-shadow: #DDD 1px 1px 1px;
 }
+
 fieldset {
-	border: #C4C4C4 1px solid;
+	background-color: rgba(245,244,255,0.4);
 	padding:  10px;
-	background-color: #DDD;
-	opacity: 0.8;
+	border: 1px solid #AEAEAE;
+	
+	padding-top: 10px;
+	
 }
+
+legend { padding: 0 10px;}
+
 #enquiry-form input[type="text"], #enquiry-form textarea {
 	font-size: 18px;
 	color: #222;
 	display: block;
-	border-radius: 8px;
+	border-radius: 5px;
 	border: 1px solid #C4C4C4;
-	padding:5px;
+	padding:7px;
 	margin: 10px 0px 40px 3px;
+	text-align: left;
 }
 #enquiry-form textarea {
-	width: 70%;
+	width: 500px;
+	height: 50%;
 }
 #enquiry-form input[type="text"]:focus, #enquiry-form textarea:focus {
-	background-color: #f8f0c8;
+	background-color: #f8fdd8;
 	border: 1px solid #FDA;
+}
+
+input[type="button"]{
+	background: none;
 }
 /*div {
  margin:0; padding:0; border:1px solid #F00; }
