@@ -3,13 +3,13 @@
 	<head>
 		<title>Francesco Paoli Fine Art Photography - Contact</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-		
+
 		<link rel="stylesheet" type="text/css" href="css/all.css" media="screen" />
 		<link rel="shortcut icon" href="images/fp-fav.ico">
 	</head>
 	<body>
 		<div id="wrapper">
-		<div id="header">
+			<div id="header">
 				<div id="header-brand">
 					<h2>FRANCESCO PAOLI</h2>
 					<div id="header-divider">
@@ -28,32 +28,53 @@
 					</li>
 				</ul>
 			</div>	<!-- END HEADER -->
-		<div id="contact-wrapper">
-			<fieldset class="shadow">
-				<legend>Contact Francesco Paoli  </legend>
-				
-			<form action="" method="post" id="enquiry-form">
-				<label for="form-name">
-					Name
-				</label>
-				<input id="form-name" type="text" maxlength="40" />
-				<label for="form-lastname">
-					Last Name
-				</label>
-				<input id="form-lastname" name="form-lastname"type="text" maxlength="40"/>
-				<label for="form-body">
-					Add your comment</label>
-					<textarea id="form-body" name="form-body" ></textarea>
-	
-				<input type="submit" id="form-submit" value="Send comment"/>
-			</form>
-			</fieldset>
+			<div id="contact-wrapper">
+				<fieldset class="shadow-blur">
+					<legend>
+						Invia un messaggio a Francesco
+					</legend>
+
+					<form action="" method="post" id="enquiry-form">
+						<!-- NOME COGNOME -->
+						<label for="form-name">
+							Nome Cognome
+						</label>
+						<input type="text" name="form-name" placeholder="Il tuo nome" maxlength="40">
+
+						<!-- E-MAIL -->
+						<label for="email">
+							E-mail
+						</label>
+						<input type="email" name="email" placeholder="@" value="@">
+						
+						<!-- TELEFONO-->
+						<label for="phone">
+							Telefono
+						</label>
+						<input type="tel" name="phone" placeholder="(optional)">
+						
+						<!-- SITO -->
+						<label for="website">
+							Sito
+						</label>
+						<input type="url" name="form-url" placeholder="http://">
+						
+						<!-- MESSAGE -->
+						<label for="form-body">
+							Messaggio
+						</label>
+						<textarea id="form-body" name="form-body" rows="5"></textarea>
+
+
+						<input type="submit" id="form-submit" value="Invia"/>
+					</form>
+				</fieldset>
 			</div>
 		</div> <!-- END WRAPPER -->
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-	
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
 		<script type="text/javascript" src="js/main.js"></script>
-			
-		</div> 	
+
+		</div>
 	</body>
 </html>
