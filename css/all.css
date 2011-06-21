@@ -307,6 +307,7 @@ legend {
 #enquiry-form textarea {
 	width: 500px;
 	height: 50%;
+	resize: none;
 }
 #enquiry-form input:focus, #enquiry-form textarea:focus {
 	background-color: #f8fdd8;
@@ -321,6 +322,15 @@ legend {
 	
 	width:100px;
 	margin: 10px auto;
+}
+
+#enquiry-form input[type="submit"]:hover {
+	background-color: #e07a40;
+}
+#enquiry-form input[type="submit"]:active {
+	position:relative;
+	top:1px;
+	border: 1px ridge #111111;
 }
 /*div {
  margin:0; padding:0; border:1px solid #F00; }
