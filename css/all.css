@@ -161,6 +161,7 @@ a:hover {
 	font-size: 12pt;
 	text-align: right;
 	font-weight: normal;
+	text-transform: uppercase;
 }
 #header ul.nav-menu {
 	font-size: 18pt;
