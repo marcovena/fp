@@ -370,3 +370,11 @@ legend {
 	clear: both;
 }
 
+/******************* ************* ***********************
+ * GALLERIA
+ ********************************************************/
+#gallery {margin:30px auto;
+width:800px;
+border:1px solid red;
+text-align: center;
+}
