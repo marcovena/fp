@@ -29,47 +29,37 @@
                 </ul>
             </div>	<!-- END HEADER -->
             <div id="contact-wrapper">
-                <fieldset class="shadow-blur">
-                    <legend>
-                        Invia un messaggio a Francesco
-                    </legend>
+            
+                
+                <form class="form">
 
-                    <form action="process-email-form.php" method="post" id="enquiry-form">
-                        <!-- NOME COGNOME -->
-                        <label for="form-name">
-                            Nome Cognome
-                        </label>
-                        <input required="required" type="text" name="form-name" placeholder="Il tuo nome" maxlength="40" autofocus="autofocus">
+    <p class="name">
+        <input type="text" name="name" id="name" />
+        <label for="name">Nome</label>
+    </p>
 
-                        <!-- E-MAIL -->
-                        <label for="email">
-                            E-mail
-                        </label>
-                        <input required="required" type="email" name="email" placeholder="@" value="@">
+    <p class="email">
+        <input type="text" name="email" id="email" />
+        <label for="email">E-mail</label>
+    </p>
 
-                        <!-- TELEFONO-->
-                        <label for="phone">
-                            Telefono
-                        </label>
-                        <input type="tel" name="phone" placeholder="(optional)">
+    <p class="web">
+        <input type="text" name="web" id="web" />
+        <label for="web">Sito</label>
+    </p>
 
-                        <!-- SITO -->
-                        <label for="website">
-                            Sito
-                        </label>
-                        <input type="url" name="form-url" placeholder="http://">
+    <p class="text">
+        <textarea name="text"></textarea>
+    </p>
 
-                        <!-- MESSAGE -->
-                        <label for="form-body">
-                            Messaggio
-                        </label>
-                        <textarea required="required" id="form-body" name="form-body" rows="5"/>
+    <p class="submit">
+        <input type="submit" value="Invia" />
+    </p>
 
-                        <input type="submit" id="form-submit" value="Invia"/>
-                    </form>
-                </fieldset>
+</form>
+
             </div>
-        </div> <!-- END WRAPPER -->
+        <!-- END WRAPPER -->
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
         <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
