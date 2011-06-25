@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Francesco Paoli Fine Art Photography - Gallery</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-
-        <link rel="shortcut icon" href="images/fp-fav.ico" />
-
-        <link rel="stylesheet" type="text/css" href="css/all.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
-    </head>
+    <?php require_once('include.php')
+    ?>
+    <?php get_head()
+    ?>
     <body>
+        <?php get_header_bar()
+    ?>
         <div id="gallery-header">
         </div>
         <div id="gallery">

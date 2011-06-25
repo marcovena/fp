@@ -26,13 +26,13 @@ function get_header_bar(){
                 </div>
                 <ul class="nav-menu">
                     <li>
-                        <a href="photos.html">Foto</a>
+                        <a href="photos.php">Foto</a>
                     </li>
                     <li>
-                        <a href="info.html">Info</a>
+                        <a href="info.php">Info</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contatti</a>
+                        <a href="contact.php">Contatti</a>
                     </li>
                 </ul>
             </div> ';
