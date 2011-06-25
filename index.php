@@ -1,17 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-	<?php include(header.php) ?>
-	<body id="landing">
-		<div id="container">
-			<img class="header-img" alt="francesco paoli photography" src="images/nome.png" />
+    <?php require_once('include.php')
+    ?>
 
-			<div class="photo shadow">
-				<a class="click" href="index2.html">Click to enter</a>
-			</div>
-			<div class="footer" >&copy; All rights reserved - Francesco Paoli 2011 </div>
-		</div> <!-- END CONTAINER -->
-	</body>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-	
-	<script type="text/javascript" src="js/main.js"></script>
+    <?php get_head()
+    ?>
+    <body id="landing">
+        <div id="container">
+            <img class="header-img" alt="francesco paoli photography" src="images/nome.png" />
+
+            <div class="photo shadow">
+                <a class="click" href="index2.php">Click to enter</a>
+            </div>
+            <?php get_footer()
+            ?>
+        </div> <!-- END CONTAINER -->
+    </body>
 </html>

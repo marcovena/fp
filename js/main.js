@@ -11,7 +11,7 @@ $(document).ready( function() {
 	$('.sub-menu').hide().delay(1000).slideDown('slow');
 
 	//$("#enquiry-form").validate();
-
+/*
 	$('#enquiry-form').validate({
 		submitHandler: function(form) {
 			$(form).ajaxSubmit({
@@ -23,4 +23,5 @@ $(document).ready( function() {
 			});
 		}
 	});
+	*/
 });
