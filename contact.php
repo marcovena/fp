@@ -10,7 +10,7 @@
             ?>
             <div id="contact-wrapper">
 
-                <form class="form">
+                <form class="form" accept-charset"utf-8" action="process.php" method="post">
 
                     <p class="name">
                         <input type="text" name="name" id="name" />
@@ -39,23 +39,21 @@
                     </p>
 
                     <p class="submit">
-                        <input type="submit" value="Invia" />
+                        <input type="submit" name="submit" value="Invia" />
+                         <img class="spinner" src="images/animated_progress.gif" width="32" alt="animated_progress"/>
                     </p>
+                   
 
                 </form>
+              <p class="output"></p>
 
             </div>
             <!-- END WRAPPER -->
             <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-            <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js"></script>
-            <script type="text/javascript" src="js/main.js"></script>
-            <script type="text/javascript" src="jquery.form.js"></script>
-            <script src="js/modernizr-min.js"></script>
-            <script>
-                if (!Modernizr.input.placeholder) {
-                    $('input[placeholder], textarea[placeholder]').placeholder();
-                }
-            </script>
+   <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js"></script>    
+            <script type="text/javascript" src="js/jquery.form.js"></script>
+            <script type="text/javascript" src="js/contact-form.js"></script>
+           
         </div>
     </body>
 </html>
