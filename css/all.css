@@ -270,7 +270,7 @@ a:hover {
 }
 .photo-content-image p {
     background-image: url('../images/transp-bg.png');
-    width:99%;
+    width:490px;
     bottom:0;
     left:0;
     position: absolute;
@@ -279,6 +279,8 @@ a:hover {
     font-family: 'DekarRegular';
     text-transform: uppercase;
     text-shadow: #555 1px 1px 1px;
+    
+    
 }
 /*-------------------*/
 /*     FORM          */
@@ -295,7 +297,7 @@ a:hover {
 
 .contact-intro {
     
-    font-size: 18pt;
+    font-size: 16pt;
     font-family: 'DekarRegular';
 
     line-height:130%;    
@@ -305,9 +307,11 @@ a:hover {
 }
 .contact-intro p{margin: 20px 0;}
 
-.contact-intro .details  {color:#777777; font-size: 16pt;}
+.contact-intro .details  {color:#777777; font-size: 14pt;}
 
 .contact-intro .details a:link {color:#777777;}
+
+
 /* CONTACT FORM */
 #contact-wrapper input, #contact-wrapper textarea {
     padding: 9px;

@@ -13,7 +13,7 @@
             <div id="gallery-holder" class="shadow" >
                 <ul>
                     <li>
-                        <img src="images/slideshow/slide1.jpg" alt="slideshow 1" width="719" height="442" />
+                        <img src="images/ponte-della-musica.jpg" alt="slideshow 1" width="719" height="442" />
                     </li>
 
                 </ul> <!-- END SLIDESHOW -->
