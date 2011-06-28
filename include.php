@@ -26,8 +26,10 @@ function get_header_bar($forPage) {
     
                 <ul class="nav-menu">
                     <li>
-                        <a href="photos.php" ',  addActive($forPage, 'photos'), ' >Foto</a>
-                        <ul class="sub-menu">
+                        <a href="photos.php" ',  addActive($forPage, 'photos'), ' >Foto</a>';
+     
+      if($forPage == 'photos'){
+          echo '<ul class="sub-menu">
 
                             <li>
                                 <a class="active" href="#">Limited Edition Pano</a>
@@ -38,8 +40,9 @@ function get_header_bar($forPage) {
                             <li>
                                 <a href="#">Various</a>
                             </li>
-                        </ul>
-                    </li>
+                        </ul>';}
+                        
+       echo     '</li>
                     <li>
                         <a href="info.php" ',  addActive($forPage, 'info'), ' >Info</a>
                     </li>
