@@ -5,7 +5,7 @@
 	<?php get_head(); ?>
 	<body>
 		<div id="wrapper">
-			<?php get_header_bar(); ?>
+			<?php get_header_bar('photos'); ?>
 				
 		<!-- TEMP DISABLED	<div id="photo-content" > -->
 				

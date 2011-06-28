@@ -18,12 +18,12 @@ echo '<head>
 function get_header_bar(){
     
     echo '<div id="header">
-                <a class="home-logo" href="index2.php" title="index2"> <div id="header-brand">
+                <div id="header-brand">
                     <h2>FRANCESCO PAOLI</h2>
                     <div id="header-divider">
                     </div>
                     <h4>fine art photography</h4>
-                </div></a>
+                </div>
                 <ul class="nav-menu">
                     <li>
                         <a href="photos.php">Foto</a>
