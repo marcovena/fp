@@ -461,7 +461,7 @@ right: 0px;
  ********************************************************/
 #gallery {
     margin:30px auto;
-    width:800px;
-    border:1px solid red;
+    width:1000px;
+    background-color:transparent;
     text-align: center;
 }
