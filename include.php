@@ -4,7 +4,7 @@
 
 function get_head() {
     echo '<head>
-        <title>Francesco Paoli Fine Art Photography - Home</title>
+        <title>Francesco Paoli Fine Art Photography</title>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
        <meta content="web photography portfolio francesco paoli" />
         <link rel="shortcut icon" href="images/fp-fav.ico">

@@ -85,7 +85,7 @@ require_once ('include.php');
             height: 600,
             transition: 'fade',
             overlayOpacity: 0.8,
-            lightbox: true
+           
 
         });
     </script>
