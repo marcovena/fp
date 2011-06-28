@@ -1,24 +1,38 @@
 $(document).ready( function() {
 
-    $('.form').ajaxForm({
+    doValidate();
 
-        // target identifies the element(s) to update with the server response
-        target: '.output',
-        beforeSubmit: function () {
-            $('img.spinner').show();
+    //validate and submit ajax form
+    function doValidate() {
+        var f = $(".form").validate({
+            rules: {
+                name: "required",
 
-        },
-        // success identifies the function to invoke when the server response
-        // has been received; here we apply a fade-in effect to the new content
-        success: function() {
-            $('img.spinner').hide();
-            $('.output').text("Grazie per avermi contattato.").fadeIn('slow');
-        },
-        timeout:    3000
-        
-    });
-    
-     $('#enquiry-form').validate(
-         
-     );
+                email: {
+                    required: true,
+                    email: true
+                },
+                comment: {
+                    maxlength: 200
+                }
+            },
+            submitHandler: function(form) {
+                $(".form").ajaxSubmit({
+                    beforeSubmit: function () {
+                        $('img.spinner').show();
+
+                    },
+                    // success identifies the function to invoke when the server response
+                    // has been received; here we apply a fade-in effect to the new content
+                    success: function() {
+                        $('img.spinner').hide();
+                        $('.output').text("Grazie per avermi contattato.").fadeIn('slow');
+                    },
+                });
+               
+            } //end submit handler
+        }); //end validate
+         return false;
+    } //end do-validate
+
 });

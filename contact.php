@@ -20,7 +20,7 @@
                     </p>
 
                     <p class="email">
-                        <input type="text" name="email" id="email" />
+                        <input type="text" name="email" id="email"/>
                         <label for="email">
                             E-mail
                         </label>

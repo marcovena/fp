@@ -22,16 +22,17 @@ if(isset($_POST['submit'])) {
     $subject = "Richiesta informazioni - www.francescopaoli.com";
     
 //owner email
-    $target_email = "marcovena@libero.it";
+   // $target_email = "marcovena@libero.it";
+    $target_email = "f.paoli@gmail.com ";
 
     $msg = trim($_POST['text']);
 
     //validate name
-    if(trim($name_field == '') ){
+    if($name_field == ''){
         $hasError = true;
     }
      else {
-        $name_field_san = trim($name_field);
+        $name_field_san = $name_field;
     }
      
      //validate email
@@ -40,7 +41,8 @@ if(isset($_POST['submit'])) {
     } else if (!eregi("^[A-Z0-9._%-]+@[A-Z0-9._%-]+\.[A-Z]{2,4}$", $email_field)) {
         $hasError = true;
     } else
-        {$email_san = $email_field;
+        {
+            $email_san = $email_field;
         }
 
  //validate msg
@@ -48,10 +50,10 @@ if(isset($_POST['submit'])) {
         $hasError = true;
     }
     
-    is(!isset($hasError)){
+    if(!isset($hasError)){
 
     $body = "<strong>From: </strong> $name_field_san </br> <strong>E-Mail:</strong> $email_san </br> 
-            <strong>Sito Web: </strong> $website </br> Messaggio: $msg </br>";
+            <strong>Sito Web: </strong> $website </br> <strong>Messaggio: </strong>$msg </br>";
 
 
 
@@ -76,7 +78,7 @@ if(isset($_POST['submit'])) {
 
     //Create a message
     $message = Swift_Message::newInstance($subject) 
-    -> setFrom( array($email => $name_field)) -> setTo( array($target_email => 'Francesco Paoli Photography')) -> setBody($body)
+    -> setFrom( array($email_san => $name_field_san)) -> setTo( array($target_email => 'Francesco Paoli Photography')) -> setBody($body)
     -> setContentType("text/html");
 
     //Send the message
@@ -84,6 +86,7 @@ if(isset($_POST['submit'])) {
     if($DEBUG) {
         echo "Email Result: $result";
     }
+    return 1;
 }
 } else {
     echo "Error while sending email";
