@@ -7,7 +7,7 @@
     ?>
     <body>
         <div id="wrapper">
-            <?php get_header_bar();
+            <?php get_header_bar('home');
             ?>
 
             <div id="gallery-holder" class="shadow" >
