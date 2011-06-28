@@ -284,10 +284,30 @@ a:hover {
 /*     FORM          */
 /*-------------------*/
 
+
+
 #contact-wrapper {
     margin:50px auto;
     width: 600px;
 }
+
+/* CONTACT INTRO */
+
+.contact-intro {
+    
+    font-size: 18pt;
+    font-family: 'DekarRegular';
+
+    line-height:130%;    
+    
+    margin-bottom: 60px;
+    
+}
+.contact-intro p{margin: 20px 0;}
+
+.contact-intro .details  {color:#777777; font-size: 16pt;}
+
+.contact-intro .details a:link {color:#777777;}
 /* CONTACT FORM */
 #contact-wrapper input, #contact-wrapper textarea {
     padding: 9px;
