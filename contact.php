@@ -34,8 +34,7 @@
                     </p>
 
                     <p class="text">
-                        <textarea name="text">
-                        </textarea>
+                        <textarea name="text"></textarea>
                     </p>
 
                     <p class="submit">

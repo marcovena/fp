@@ -163,6 +163,12 @@ a:hover {
     font-weight: normal;
     text-transform: uppercase;
 }
+
+#header a.home-logo:hover {
+  color:#aeaeae;
+  
+}
+
 #header ul.nav-menu {
     font-size: 18pt;
     float: right;
@@ -309,13 +315,23 @@ a:hover {
 }
 #contact-wrapper input:focus, #contact-wrapper textarea:focus {
     background:none;
-    background-color: rgba(230,240,240,0.5);
+    background-color: rgba(230,240,240,0.9);
 }
 #contact-wrapper .form label {
     margin-left: 10px;
     padding-bottom: 25px;
+    position:relative;
+    top:-10px;
+    
+    
     color: #999999;
 }
+
+#contact-wrapper .form p {
+    margin-bottom: 10px;
+    position: relative;
+}
+
 #contact-wrapper .submit input {
     width: auto;
     padding: 9px 15px;
@@ -328,7 +344,7 @@ a:hover {
     cursor: pointer;
 }
 
-#contact-wrapper img.spinner {display:none;}
+#contact-wrapper img.spinner {display:none; margin-left: 20px;}
 
 #contact-wrapper .output{
     
@@ -343,12 +359,23 @@ a:hover {
     text-align: center;
     display: none;
     
-    
-    
-    
-    
-    
 }
+#contact-wrapper label.error{color:#dd0000;
+position:absolute;
+top:10px;
+right: 0px;
+
+
+ }
+
+#contact-wrapper p.text label.error{
+    position:absolute;
+
+    top:-2px;
+    right: 0px;
+  
+}
+
 /*div {
  margin:0; padding:0; border:1px solid #F00; }
  */

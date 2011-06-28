@@ -12,10 +12,19 @@ $(document).ready( function() {
                     required: true,
                     email: true
                 },
-                comment: {
-                    maxlength: 200
+                text: {
+                    maxlength: 1000, minlength:5
                 }
             },
+            messages: {
+                name: "Per favore inserisci il tuo nome",
+                email: {
+                    required: "Riempire campo e-mail",
+                    email: "Formato: nome@dominio.com"
+                },
+                text: {minlength:"Inserisci il messaggio"}
+            }
+            ,
             submitHandler: function(form) {
                 $(".form").ajaxSubmit({
                     beforeSubmit: function () {
@@ -26,13 +35,13 @@ $(document).ready( function() {
                     // has been received; here we apply a fade-in effect to the new content
                     success: function() {
                         $('img.spinner').hide();
-                        $('.output').text("Grazie per avermi contattato.").fadeIn('slow');
+                        $('.output').text("Grazie per avermi contattato.").fadeIn('slow').delay(800).fadeOut('slow');
                     },
                 });
-               
+
             } //end submit handler
         }); //end validate
-         return false;
+        return false;
     } //end do-validate
 
 });
