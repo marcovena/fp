@@ -11,68 +11,13 @@ require_once ('include.php');
             <div id="gallery-header">
             </div>
             <div id="gallery">
-                <a href="images/gallery/image1.jpg">
-                <img src="images/gallery/thumb1.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image2.jpg">
-                <img src="images/gallery/thumb2.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image3.jpg">
-                <img src="images/gallery/thumb3.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image4.jpg">
-                <img src="images/gallery/thumb4.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image5.jpg">
-                <img src="images/gallery/thumb5.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image1.jpg">
-                <img src="images/gallery/thumb1.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image2.jpg">
-                <img src="images/gallery/thumb2.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image3.jpg">
-                <img src="images/gallery/thumb3.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image4.jpg">
-                <img src="images/gallery/thumb4.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image5.jpg">
-                <img src="images/gallery/thumb5.jpg" alt="" />
-                </a>
-
-                <a href="images/gallery/image1.jpg">
-                <img src="images/gallery/thumb1.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image2.jpg">
-                <img src="images/gallery/thumb2.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image3.jpg">
-                <img src="images/gallery/thumb3.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image4.jpg">
-                <img src="images/gallery/thumb4.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image5.jpg">
-                <img src="images/gallery/thumb5.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image1.jpg">
-                <img src="images/gallery/thumb1.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image2.jpg">
-                <img src="images/gallery/thumb2.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image3.jpg">
-                <img src="images/gallery/thumb3.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image4.jpg">
-                <img src="images/gallery/thumb4.jpg" alt="" />
-                </a>
-                <a href="images/gallery/image5.jpg">
-                <img src="images/gallery/thumb5.jpg" alt="" />
-                </a>
+                <?php
+                include ('GalleryCreator.class.php');
+                $gallery = new GalleryCreator('images/gallery');
+                $gallery -> getGallery();
+                ?>
             </div>
+
         </div>
     </body>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
@@ -85,7 +30,6 @@ require_once ('include.php');
             height: 600,
             transition: 'fade',
             overlayOpacity: 0.8,
-           
 
         });
     </script>
