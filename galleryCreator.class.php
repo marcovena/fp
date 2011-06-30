@@ -24,6 +24,13 @@ class GalleryCreator {
         } 
     }
 
+   // fare le thumbnail
+    public function getThumbs($thumbsDir){
+        
+        
+        
+        
+    }
     /* private function collectPhotos() {
 
      // create an array to hold directory list
