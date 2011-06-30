@@ -2,15 +2,17 @@
 
 /* get the head for the html */
 
-function get_head() {
-    echo '<head>
-        <title>Francesco Paoli Fine Art Photography</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-       <meta content="web photography portfolio francesco paoli" />
-        <link rel="shortcut icon" href="images/fp-fav.ico">
+function get_head($suff) {
+    $toAdd = isSet($suff) ? ' - ' .$suff : '';
 
-        <link rel="stylesheet" type="text/css" href="css/all.css" media="screen" />
-    </head>';
+    echo '<title>Francesco Paoli Fine Art Photography', $toAdd, ' </title>
+          <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+          <meta content="web photography portfolio francesco paoli" />
+          <link rel="shortcut icon" href="images/fp-fav.ico">
+
+          <link rel="stylesheet" type="text/css" href="css/all.css" media="screen" />';
+          
+
 }
 
 /* get the header for all the pages */
@@ -26,10 +28,10 @@ function get_header_bar($forPage) {
     
                 <ul class="nav-menu">
                     <li>
-                        <a href="photos.php" ',  addActive($forPage, 'photos'), ' >Foto</a>';
-     
-      if($forPage == 'photos'){
-          echo '<ul class="sub-menu">
+                        <a href="photos.php" ',    addActive($forPage, 'photos'), ' >Foto</a>';
+
+    if($forPage == 'photos') {
+        echo '<ul class="sub-menu">
 
                             <li>
                                 <a class="active" href="#">Limited Edition Pano</a>
@@ -40,14 +42,15 @@ function get_header_bar($forPage) {
                             <li>
                                 <a href="#">Various</a>
                             </li>
-                        </ul>';}
-                        
-       echo     '</li>
+                        </ul>';
+    }
+
+    echo '</li>
                     <li>
-                        <a href="info.php" ',  addActive($forPage, 'info'), ' >Info</a>
+                        <a href="info.php" ',    addActive($forPage, 'info'), ' >Info</a>
                     </li>
                     <li>
-                        <a href="contact.php" ',  addActive($forPage, 'contact'), ' >Contatti</a>
+                        <a href="contact.php" ',    addActive($forPage, 'contact'), ' >Contatti</a>
                     </li>
                 </ul>
             </div> ';

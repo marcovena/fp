@@ -2,9 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <?php require_once('include.php')
     ?>
+    <head>
+        <?php get_head('');
+        ?>
+    </head>
 
-    <?php get_head()
-    ?>
     <body id="landing">
         <div id="container">
             <img class="header-img" alt="francesco paoli photography" src="images/nome.png" />

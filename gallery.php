@@ -4,7 +4,7 @@ require_once ('include.php');
 <!DOCTYPE html>
 <html>
 
-    <?php get_head();?>
+    <?php get_head('Gallery');?>
     <body>
         <div id="wrapper">
             <?php get_header_bar('gallery');?>
