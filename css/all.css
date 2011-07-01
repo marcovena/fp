@@ -256,6 +256,9 @@ a:hover {
     height:165px;
     position: relative;
 }
+
+.photo-content-image a{ 
+    width:inherit; height: inherit; display: block;}
 .photo-content-image-1 {
     background-image: url('../images/iceland.jpg');
 }
@@ -465,3 +468,4 @@ right: 0px;
     background-color:transparent;
     text-align: center;
 }
+
