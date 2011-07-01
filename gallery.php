@@ -26,11 +26,13 @@ require_once ('include.php');
     <script>
         Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
         $("#gallery").galleria({
-            width: 1000,
-            height: 600,
-            transition: 'fade',
-            overlayOpacity: 0.8,
+        width: 1000,
+        height: 600,
+        transition: 'fade',
+        overlayOpacity: 0.8,
 
         });
+
+        
     </script>
 </html>

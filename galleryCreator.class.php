@@ -12,7 +12,7 @@ class GalleryCreator {
 
     public function getGallery() {
       
-        $images = glob($this->_folder . '/image?.jpg');
+        $images = glob($this->_folder . '/image*.jpg');
        // var_dump($images);
          
         for($i=1; $i<=count($images); $i++){
