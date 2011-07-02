@@ -12,7 +12,7 @@ require_once ('include.php');
             </div>
             <div id="gallery">
                 <?php
-                include ('GalleryCreator.class.php');
+                include ('galleryCreator.class.php');
                 $gallery = new GalleryCreator('images/gallery');
                 $gallery -> getGallery();
                 ?>
