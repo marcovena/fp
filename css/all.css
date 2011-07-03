@@ -163,12 +163,9 @@ a:hover {
     font-weight: normal;
     text-transform: uppercase;
 }
-
 #header a.home-logo:hover {
-  color:#aeaeae;
-  
+    color:#aeaeae;
 }
-
 #header ul.nav-menu {
     font-size: 18pt;
     float: right;
@@ -256,9 +253,11 @@ a:hover {
     height:165px;
     position: relative;
 }
-
-.photo-content-image a{ 
-    width:inherit; height: inherit; display: block;}
+.photo-content-image a {
+    width:inherit;
+    height: inherit;
+    display: block;
+}
 .photo-content-image-1 {
     background-image: url('../images/iceland.jpg');
 }
@@ -282,39 +281,33 @@ a:hover {
     font-family: 'DekarRegular';
     text-transform: uppercase;
     text-shadow: #555 1px 1px 1px;
-    
-    
 }
 /*-------------------*/
 /*     FORM          */
 /*-------------------*/
 
-
-
 #contact-wrapper {
     margin:50px auto;
     width: 600px;
 }
-
 /* CONTACT INTRO */
 
 .contact-intro {
-    
     font-size: 16pt;
     font-family: 'DekarRegular';
-
-    line-height:130%;    
-    
+    line-height:130%;
     margin-bottom: 60px;
-    
 }
-.contact-intro p{margin: 20px 0;}
-
-.contact-intro .details  {color:#777777; font-size: 14pt;}
-
-.contact-intro .details a:link {color:#777777;}
-
-
+.contact-intro p {
+    margin: 20px 0;
+}
+.contact-intro .details {
+    color:#777777;
+    font-size: 14pt;
+}
+.contact-intro .details a:link {
+    color:#777777;
+}
 /* CONTACT FORM */
 #contact-wrapper input, #contact-wrapper textarea {
     padding: 9px;
@@ -349,16 +342,12 @@ a:hover {
     padding-bottom: 25px;
     position:relative;
     top:-10px;
-    
-    
     color: #999999;
 }
-
 #contact-wrapper .form p {
     margin-bottom: 10px;
     position: relative;
 }
-
 #contact-wrapper .submit input {
     width: auto;
     padding: 9px 15px;
@@ -370,39 +359,31 @@ a:hover {
     -webkit-border-radius: 5px;
     cursor: pointer;
 }
-
-#contact-wrapper img.spinner {display:none; margin-left: 20px;}
-
-#contact-wrapper .output{
-    
+#contact-wrapper img.spinner {
+    display:none;
+    margin-left: 20px;
+}
+#contact-wrapper .output {
     background-color: #c7ffc1;
     color:#008000;
-    
     font-size: 14pt;
     font-weight: bold;
-    
     padding:20px 5px;
     width: inherit;
     text-align: center;
     display: none;
-    
 }
-#contact-wrapper label.error{color:#dd0000;
-position:absolute;
-top:10px;
-right: 0px;
-
-
- }
-
-#contact-wrapper p.text label.error{
+#contact-wrapper label.error {
+    color:#dd0000;
     position:absolute;
-
+    top:10px;
+    right: 0px;
+}
+#contact-wrapper p.text label.error {
+    position:absolute;
     top:-2px;
     right: 0px;
-  
 }
-
 /*div {
  margin:0; padding:0; border:1px solid #F00; }
  */
@@ -467,5 +448,49 @@ right: 0px;
     width:1000px;
     background-color:transparent;
     text-align: center;
+}
+/******************* ************* ***********************
+ * GO MOBILE!!
+ ********************************************************/
+@media screen and ( min-width: 200px) and ( max-width: 700px) {
+    #landing #container {
+        margin: 10px auto;
+        width: 320px;
+    }
+    
+    #landing  img.header-img {
+    display:block;
+    margin: 20px auto;
+     width: 250px;
+}
+#landing div.photo {
+   width:320px;
+   height:180px;
+    margin: 20px auto;
+    background-image: url('../images/land-main.jpg') top center;
+    background-size:320px ;
+    position:relative;
+}
+
+
+    #landing .photo a {
+    
+    top: 50px;
+    color: #EEE;
+    text-shadow:none;
+    
+    font-size: 24pt;
+    width: 180px;
+    text-align: right;   
+}
+
+#landing .footer {
+    text-align: center;
+    font-family: 'DekarRegular';
+    font-size: 0.9em;
+    margin-top: 40px;
+    color:#222;
+}
+/*||||||||||||| END LANDING PAGE |||||||||||||| */
 }
 
