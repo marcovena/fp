@@ -104,7 +104,7 @@ a:hover {
     background-image: url('../images/land-main.jpg');
     position:relative;
 }
-#landing .photo a {
+#landing a.click{
     position:absolute;
     right:0;
     bottom: 0;
@@ -449,48 +449,6 @@ a:hover {
     background-color:transparent;
     text-align: center;
 }
-/******************* ************* ***********************
- * GO MOBILE!!
- ********************************************************/
-@media screen and ( min-width: 200px) and ( max-width: 700px) {
-    #landing #container {
-        margin: 10px auto;
-        width: 320px;
-    }
-    
-    #landing  img.header-img {
-    display:block;
-    margin: 20px auto;
-     width: 250px;
-}
-#landing div.photo {
-   width:320px;
-   height:180px;
-    margin: 20px auto;
-    background-image: url('../images/land-main.jpg') top center;
-    background-size:320px ;
-    position:relative;
-}
 
 
-    #landing .photo a {
-    
-    top: 50px;
-    color: #EEE;
-    text-shadow:none;
-    
-    font-size: 24pt;
-    width: 180px;
-    text-align: right;   
-}
-
-#landing .footer {
-    text-align: center;
-    font-family: 'DekarRegular';
-    font-size: 0.9em;
-    margin-top: 40px;
-    color:#222;
-}
-/*||||||||||||| END LANDING PAGE |||||||||||||| */
-}
 

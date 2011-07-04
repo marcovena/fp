@@ -8,10 +8,13 @@ function get_head($suff) {
     echo '<title>Francesco Paoli Fine Art Photography', $toAdd, ' </title>
           <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
           <meta content="web photography portfolio francesco paoli" />
+          <meta name="viewport" content="width=320" />
+          
           <link rel="shortcut icon" href="images/fp-fav.ico">
 
-          <link rel="stylesheet" type="text/css" href="css/all.css" media="screen" />';
-          
+          <link rel="stylesheet" type="text/css" href="css/all.css" media="screen and (min-width:480px)" />
+          <link rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (min-width:200px) and (max-width:480px)"/>';
+
 
 }
 
