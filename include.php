@@ -12,7 +12,7 @@ function get_head($suff) {
           
           <link rel="shortcut icon" href="images/fp-fav.ico">
 
-          <link rel="stylesheet" type="text/css" href="css/all.css" media="screen and (min-width:480px)" />
+          <link rel="stylesheet" type="text/css" href="css/all.css" media="screen" />
           <link rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (min-width:200px) and (max-width:480px)"/>';
 
 
