@@ -37,13 +37,13 @@ function get_header_bar($forPage) {
         echo '<ul class="sub-menu">
 
                             <li>
-                                <a class="active" href="#">Limited Edition Pano</a>
+                                <a class="active" href="gallery.php">Limited Edition Pano</a>
                             </li>
                             <li>
-                                <a href="#">Landscapes</a>
+                                <a href="gallery.php">Landscapes</a>
                             </li>
                             <li>
-                                <a href="#">Various</a>
+                                <a href="gallery.php">Various</a>
                             </li>
                         </ul>';
     }

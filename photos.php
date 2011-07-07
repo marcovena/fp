@@ -13,15 +13,13 @@ require_once 'include.php';
 
             <!-- TEMP DISABLED	<div id="photo-content" > -->
 
-            
             <div class="photo-content-image photo-content-image-1 shadow">
-<a href="gallery.php">
+                <a href="gallery.php">
                 <p>
                     Limited Edition
                 </p>
-</a>
+                </a>
             </div>
-            
 
             <div class="photo-content-image photo-content-image-2 shadow">
 
