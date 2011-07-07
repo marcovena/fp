@@ -3,8 +3,10 @@ require_once ('include.php');
 ?>
 <!DOCTYPE html>
 <html>
-
+<head>
     <?php get_head('Gallery');?>
+    
+    </head>
     <body>
         <div id="wrapper">
             <?php get_header_bar('gallery');?>

@@ -1,1 +1,6 @@
 Aggiungi Title alle immagini --> tooltip
+Descirzione a dull resolution delle immagini
+
+Switch per cambiare tema (bianco/scuro)
+
+Aggiornare dettagli mail server
