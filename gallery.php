@@ -1,21 +1,35 @@
 <?php
+
+error_reporting(E_ALL);
 require_once ('include.php');
+include ('galleryCreator.class.php');
+
+$gallery_id=0;
+if(!empty($_GET)) {
+    $gallery_id = $_GET['id'];
+    
+    }
+
+$gallery = new GalleryCreator('');
+
+$gallery_folders = Array("images/gallery/hpano", "images/gallery/vpano", "images/gallery/standard");
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-    <?php get_head('Gallery');?>
-    
+    <head>
+        <?php get_head('Gallery');?>
     </head>
     <body>
         <div id="wrapper">
             <?php get_header_bar('gallery');?>
             <div id="gallery-header">
             </div>
+
+            <!-- This is the large size gallery holder to cycle thourgh -->
             <div id="gallery">
                 <?php
-                include ('galleryCreator.class.php');
-                $gallery = new GalleryCreator('images/gallery');
+
+                $gallery -> setSource($gallery_folders[$gallery_id]);
                 $gallery -> getGallery();
                 ?>
             </div>
@@ -28,13 +42,11 @@ require_once ('include.php');
     <script>
         Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
         $("#gallery").galleria({
-        width: 1000,
-        height: 600,
-        transition: 'fade',
-        overlayOpacity: 0.8,
+            width: 1000,
+            height: 600,
+            transition: 'fade',
+            overlayOpacity: 0.8,
 
         });
-
-        
     </script>
 </html>

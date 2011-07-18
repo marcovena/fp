@@ -13,17 +13,23 @@ class GalleryCreator {
     public function getGallery() {
       
         $images = glob($this->_folder . '/image*.jpg');
-       // var_dump($images);
-         
+        
+       //echo 'siamo in getgallery';
         for($i=1; $i<=count($images); $i++){
-      //      echo $image . '<br/>';
+      //echo $image . '<br/>';
             
-             echo '<a href="images/gallery/image'.$i.'.jpg">';
-             echo '<img src="images/gallery/thumb'.$i.'.jpg" alt="thumb'.$i.'.jpg"/></a>';
+             echo '<a href="' . $this->_folder . '/image'.$i.'.jpg">';
+             echo '<img src="' . $this->_folder . '/thumb'.$i.'.jpg" alt="thumb'.$i.'.jpg"/></a>';
             
-        } 
+        }
+         
     }
-
+    
+    public function setSource($src){
+        if(isset($src))
+            $this->_folder = $src;
+        
+    }
    // fare le thumbnail
     public function getThumbs($thumbsDir){
         
