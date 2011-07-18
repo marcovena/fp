@@ -14,24 +14,28 @@ require_once 'include.php';
             <!-- TEMP DISABLED	<div id="photo-content" > -->
 
             <div class="photo-content-image photo-content-image-1 shadow">
-                <a href="gallery.php">
+                <a href="gallery.php?id=0">
                 <p>
-                    Limited Edition
+                    Pano Orizzontali
                 </p>
                 </a>
             </div>
 
             <div class="photo-content-image photo-content-image-2 shadow">
 
+                <a href="gallery.php?id=1">
                 <p>
-                    Landscapes
+                     Pano Verticali
                 </p>
+                </a>
             </div>
             <div class="photo-content-image  photo-content-image-3 shadow">
 
+                <a href="gallery.php?id=2">
                 <p>
-                    Various
+                    Antaniche
                 </p>
+                </a>
             </div>
             <!--	</div> FOTO CONTENT-->
             <div id="footer">
