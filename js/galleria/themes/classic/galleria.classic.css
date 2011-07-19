@@ -7,7 +7,7 @@
 .galleria-container {
     position: relative;
     overflow: hidden;
-    background: #000;
+   
 }
 .galleria-container img {
     -moz-user-select: none;
@@ -144,6 +144,7 @@
     left: 10px;
     z-index: 2;
     background-position: 0 46px;
+   
 }
 .galleria-image-nav-right {
     left: auto;
@@ -214,6 +215,6 @@
 .galleria-info-close,
 .galleria-image-nav-left,
 .galleria-image-nav-right {
-    background-image: url(classic-map.png);
+    background-image: url(classic-map-black.png);
     background-repeat: no-repeat;
 }
