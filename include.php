@@ -21,8 +21,9 @@ function get_head($suff) {
 /* get the header for all the pages */
 function get_header_bar($forPage) {
 
-    echo '<div id="header">
-                <a class="home-logo" href="index2.php" title="index2"> <div id="header-brand">
+    echo '<div id="header" class="not-selectable">
+                <a class="home-logo " href="index2.php" title="index2"> 
+                <div id="header-brand">
                     <h2>FRANCESCO PAOLI</h2>
                     <div id="header-divider">
                     </div>
@@ -33,17 +34,17 @@ function get_header_bar($forPage) {
                     <li>
                         <a href="photos.php" ',    addActive($forPage, 'photos'), ' >Foto</a>';
 
-    if($forPage == 'photos') {
+    if($forPage == 'photos' || $forPage == 'gallery') {
         echo '<ul class="sub-menu">
 
                             <li>
-                                <a class="active" href="gallery.php">Limited Edition Pano</a>
+                                <a class="active" href="gallery.php?id=0">Pano Orizzontali</a>
                             </li>
                             <li>
-                                <a href="gallery.php">Landscapes</a>
+                                <a href="gallery.php?id=1">Pano Verticali</a>
                             </li>
                             <li>
-                                <a href="gallery.php">Various</a>
+                                <a href="gallery.php?id=2">Sblinde</a>
                             </li>
                         </ul>';
     }

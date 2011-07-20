@@ -15,7 +15,7 @@
             <div id="gallery-holder" class="shadow" >
                 <ul>
                     <li>
-                        <img src="images/ponte-della-musica.jpg" title="Ponte della Musica" alt="slideshow 1" width="719" height="442" />
+                        <img src="images/ponte-della-musica.jpg" title="Ponte della Musica" alt="slideshow 1" width="800" height="534" />
                     </li>
 
                 </ul> <!-- END SLIDESHOW -->

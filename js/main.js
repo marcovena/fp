@@ -1,3 +1,3 @@
 $(document).ready( function() {
-	$('.sub-menu').hide().delay(1000).fadeIn('slow');
+	$('.sub-menu').hide().delay(300).fadeIn(400);
 });

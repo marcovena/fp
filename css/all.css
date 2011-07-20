@@ -62,10 +62,20 @@ a:hover {
     color: #0285da;
 }
 .shadow {
-    -moz-box-shadow: 5px 5px 5px #ccc;
-    -webkit-box-shadow: 5px 5px 5px #ccc;
-    box-shadow: 5px 5px 5px #ccc;
+    -moz-box-shadow:  0px 5px  5px #ccc;
+    -webkit-box-shadow:   0px 5px  5px #ccc;
+    box-shadow:  0px 5px 5px #ccc;
+    display: block;
 }
+
+.not-selectable{
+    -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
 .shadow-blur {
     -moz-box-shadow: 1px 1px 5px #ccc;
     -webkit-box-shadow: 1px 1px 5px #ccc;
@@ -108,8 +118,9 @@ a:hover {
     position:absolute;
     right:0;
     bottom: 0;
-    color: #666;
-    text-shadow: #DDD 1px 0px 1px;
+    color: #AAA;
+    -text-shadow: #AAA 1px 1px 2px;
+   
     font-family: 'DekarRegular';
     font-size: 32pt;
     width: 360px;
@@ -117,12 +128,14 @@ a:hover {
     border-bottom: 1px solid #666;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 #landing .photo a:hover {
-    color: #DDD;
+    color: #CCC;
     border-bottom: 1px solid #DDD;
-    text-shadow: rgba(200, 255,255, .8) 3px 3px 14px;
+    text-shadow: rgba(255, 255,255, .3) 3px 3px 6px;
+    -webkit-transition: all .5s ease;
+   
 }
 
 
@@ -211,9 +224,9 @@ a:hover {
 /* Slideshow Gallery Content*/
 #gallery-holder {
     position: relative;
-    width: 719px;
+    width: 800px;
     margin:30px auto 0;
-    height: 442px;
+    height: 534px;
 }
 #gallery-holder .slideshow-frame {
     height:442px;
@@ -454,7 +467,7 @@ a:hover {
     
     font-family: Helvetica,Arial;
     font-size: 22pt;
-    color:  #0285DA;
+    color:#0285DA;
     text-shadow: 1px 0 5px #222;
     text-align: left;
 }
