@@ -33,17 +33,17 @@ function get_header_bar($forPage) {
                     <li>
                         <a href="photos.php" ',    addActive($forPage, 'photos'), ' >Foto</a>';
 
-    if($forPage == 'photos' || $forPage == 'gallery') {
+    if($forPage == 'photos') {
         echo '<ul class="sub-menu">
 
                             <li>
-                                <a class="active" href="gallery.php?id=0">Pano Orizzontali</a>
+                                <a class="active" href="gallery.php">Limited Edition Pano</a>
                             </li>
                             <li>
-                                <a href="gallery.php?id=1">Pano Verticali</a>
+                                <a href="gallery.php">Landscapes</a>
                             </li>
                             <li>
-                                <a href="gallery.php?id=2">Sblinde</a>
+                                <a href="gallery.php">Various</a>
                             </li>
                         </ul>';
     }
