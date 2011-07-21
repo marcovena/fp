@@ -1,6 +1,6 @@
 <?php
 
-$DEBUG = 1;
+$DEBUG = 0;
 
 if($DEBUG) {
     echo "email: $email \n $message \n $target_email";
@@ -11,7 +11,7 @@ if(isset($_POST['submit'])) {
 //need to validate 
 
     $smtp_server = 'smtp.francescopaoli.com';
-    $username='info@francescopaoli.com';
+    $username='2933995@aruba.it';
     
     $password = 'cun2ax4j';
 
