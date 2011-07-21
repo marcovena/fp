@@ -10,10 +10,10 @@ if(isset($_POST['submit'])) {
 
 //need to validate 
 
-    $smtp_server = 'mail.marcovenanzi.com';
-    $username='hi@marcovenanzi.com';
+    $smtp_server = 'smtp.francescopaoli.com';
+    $username='info@francescopaoli.com';
     
-    $password = 'benebene';
+    $password = 'cun2ax4j';
 
     $name_field = trim($_POST['name']);
     $email_field = trim($_POST['email']);
@@ -23,7 +23,7 @@ if(isset($_POST['submit'])) {
     
 //owner email
    // $target_email = "marcovena@libero.it";
-    $target_email = "f.paoli@gmail.com ";
+    $target_email = "info@francescopaoli.com";
 
     $msg = trim($_POST['text']);
 
@@ -69,7 +69,7 @@ if(isset($_POST['submit'])) {
         echo "Loaded swiftmailer library";
     }
 
-    //Create the Transport (TODO: sostituire il mail server)
+    //Create the Transport
     
     $transport = Swift_SmtpTransport::newInstance($smtp_server, 25) -> setUsername($username) -> setPassword($password);
 
