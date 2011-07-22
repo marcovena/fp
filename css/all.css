@@ -472,4 +472,42 @@ a:hover {
     text-align: left;
 }
    
+   
+  /**
+   *  Style Switcher   
+   */
+#style-switcher{
+    position:fixed;
+    top:0; right:70px;
+    
+    cursor: pointer;
+    display: block;
+    
+    }
+
+#style-switcher ul {
+    //background-color: #777777;
+    padding: 10px 10px 10px 5px;
+}
+
+#style-switcher ul li{
+    display:inline;
+    font-size: 10pt;
+    padding:10px;
+    margin-left: 5px;
+    
+}
+ 
+    li#light-style-switch{
+        background: #FDFDFD;
+        color:black;
+        border: 1px solid black;
+    }
+    li#dark-style-switch{
+        background: #020202;
+        color:white;
+        border: 1px solid white;
+    }
+ 
+   
 
