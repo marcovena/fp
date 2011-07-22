@@ -53,7 +53,7 @@
     z-index: 1;
 }
 .galleria-loader {
-    background: #000;
+    background: transparent;
     width: 20px;
     height: 20px;
     position: absolute;
