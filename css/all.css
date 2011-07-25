@@ -509,5 +509,9 @@ a:hover {
         border: 1px solid white;
     }
  
+#style-switcher ul li:hover{
+position: relative;
+top:-2px;
    
+}
 

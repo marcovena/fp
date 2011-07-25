@@ -1,8 +1,14 @@
 $(document).ready( function() {
 	$('.sub-menu').hide().delay(300).fadeIn(400);
 	
-	initStyleSwitcher();
 	
+	//enable theme switcher
+	var loc = window.location;
+	console.log(loc);
+	var enableString = "toggle=1"
+	if(loc.search.indexOf(enableString)!=-1){
+	   initStyleSwitcher();
+	}
 });
 
 //create a toggle switcher that will toggle the site theme from dark to white
