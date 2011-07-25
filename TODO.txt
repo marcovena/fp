@@ -5,6 +5,9 @@ Switch per cambiare tema (bianco/scuro)
 
 Aggiornare dettagli mail server
 
-Fare le supercazzule due volte al dì, prima dei pasti, no perditempo.
+Diminuire spaziatura tra header e bordo superiore pagina (circa metà di quanto è ora)
+Diminuire spaziatura tra le immagini di preview nella pagina photos (per farle entrare tutte senza scroll)
 
-Aggiungere le righette un po ovunque per dare un tocco di professionalità e di verticalità al sito.
+Centratura Thumbs nelle gallery (by Frengo!)
+
+Aggiungere scritta in basso " All right reserved" nella pagina photo.
