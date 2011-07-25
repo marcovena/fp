@@ -1,0 +1,11 @@
+PER AGGIORNARE LA GALLERY:
+
+caricare i file con i nomi image1.jpg image2.jpg etc... 
+caricare nella stessa cartella le versioni rimpicciolite delle immagini con i nomi thumb1.jpg thumb2.jpg
+
+Il codice php genera il file html per la visulaizzazione.
+
+Ci sono 3 gallerie
+hpano/
+vpano/
+standard/
