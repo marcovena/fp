@@ -20,6 +20,7 @@ function initStyleSwitcher(){
         $('#dark-style-switch').click(function(){
             
             $("link[rel=stylesheet]").attr({href : "css/all-black.css"});
+            //$('a.home-logo').css('background-image', 'url(../images/logo-dark.png)');
             
         });
         
