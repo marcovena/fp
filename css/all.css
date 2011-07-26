@@ -150,7 +150,7 @@ a:hover {
 
 #wrapper {
     width: 994px;
-    overflow: auto;
+    overflow: hidden;
     margin: 10px auto 0;
     
 }
@@ -173,11 +173,11 @@ a:hover {
  
     background: url(../images/logo-white.png) top left no-repeat; 
     
-   
+   opacity: 0.7;
 }
 
 #header a.home-logo:hover {
-    opacity: 0.7;
+    
 }
 #header ul.nav-menu {
     font-size: 18pt;
@@ -222,19 +222,27 @@ a:hover {
     top:44px; left:-20px;
     right:-20px;
     
-   cmargin: 0 -899px 10px -10px;
 }
 #header ul.sub-menu {
+    display:none;
+    
     position:absolute;
     top:38px;
     right:0px;
     margin-right: 0px;
     width:200%;
     text-align: right;
+    
+   
 }
 #header ul.sub-menu li {
     text-align: right;
     display:inline;
+    
+    font-size:14pt;
+    
+    
+    
 }
 /* Slideshow Gallery Content*/
 #gallery-holder {
