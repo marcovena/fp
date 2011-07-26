@@ -7,7 +7,7 @@ require_once 'include.php';
     <head>
         <?php get_head('Foto');?>
     </head>
-    <body>
+    <body id="photo-page">
         <div id="wrapper">
             <?php get_header_bar('photos');?>
 
