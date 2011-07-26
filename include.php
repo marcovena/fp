@@ -3,7 +3,7 @@
 /* get the head for the html */
 
 function get_head($suff) {
-    $toAdd = isSet($suff) ? ' - ' .$suff : '';
+    $toAdd = isSet($suff) ? ' - ' . $suff : '';
 
     echo '<title>Francesco Paoli Fine Art Photography', $toAdd, ' </title>
           <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
@@ -15,24 +15,26 @@ function get_head($suff) {
           <link rel="stylesheet" type="text/css" href="css/all.css" media="screen" />
           <link rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (min-width:200px) and (max-width:480px)"/>';
 
-
 }
 
 /* get the header for all the pages */
 function get_header_bar($forPage) {
 
+    /*echo '<div id="header" class="not-selectable">
+     <a class="home-logo " href="index2.php" title="index2">
+     <div id="header-brand">
+     <h2>FRANCESCO PAOLI</h2>
+     <div id="header-divider">
+     </div>
+     <h4>fine art photography</h4>
+     </div></a> */
     echo '<div id="header" class="not-selectable">
-                <a class="home-logo " href="index2.php" title="index2"> 
-                <div id="header-brand">
-                    <h2>FRANCESCO PAOLI</h2>
-                    <div id="header-divider">
-                    </div>
-                    <h4>fine art photography</h4>
-                </div></a>               
-    
+                <a class="home-logo" href="index2.php" title="index2"> 
+                
+                </a><div id="header-divider"></div>
                 <ul class="nav-menu">
                     <li>
-                        <a href="photos.php" ',    addActive($forPage, 'photos'), ' >Foto</a>';
+                        <a href="photos.php" ',     addActive($forPage, 'photos'), ' >Foto</a>';
 
     if($forPage == 'photos' || $forPage == 'gallery') {
         echo '<ul class="sub-menu">
@@ -51,10 +53,10 @@ function get_header_bar($forPage) {
 
     echo '</li>
                     <li>
-                        <a href="info.php" ',    addActive($forPage, 'info'), ' >Info</a>
+                        <a href="info.php" ',     addActive($forPage, 'info'), ' >Info</a>
                     </li>
                     <li>
-                        <a href="contact.php" ',    addActive($forPage, 'contact'), ' >Contatti</a>
+                        <a href="contact.php" ',     addActive($forPage, 'contact'), ' >Contatti</a>
                     </li>
                 </ul>
             </div> ';
