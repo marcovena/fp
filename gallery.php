@@ -38,8 +38,9 @@ $gallery_folders = Array("images/gallery/hpano", "images/gallery/vpano", "images
         
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/galleria/galleria-1.2.4.min.js"></script>
+    
     <script type="text/javascript" src="js/main.js"></script>
-    </body>
+    
     
 
     <script>
@@ -53,4 +54,5 @@ $gallery_folders = Array("images/gallery/hpano", "images/gallery/vpano", "images
 
         });
     </script>
+    </body>
 </html>

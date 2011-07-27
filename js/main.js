@@ -9,11 +9,11 @@ $(document).ready(function() {
         initStyleSwitcher();
     }
 
-    $('ul.sub-menu li a').each(function() {
-        if($this.hasClass('active') == false) {
+  /*  $('ul.sub-menu li a').each(function() {
+        if($(this).hasClass('active') == false) {
             this.style.color = 'red';
         }
-    });
+    });*/   
 });
 //create a toggle switcher that will toggle the site theme from dark to white
 function initStyleSwitcher() {
