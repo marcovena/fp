@@ -1,7 +1,11 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-    <?php require_once('include.php')
-    ?>
+<?php require_once('include.php');?>
+    
+
+
+<!doctype html>
+<?php get_html_tag(); ?>
+
+    
     <head>
         <?php get_head('');
         ?>
@@ -18,4 +22,6 @@
             ?>
         </div> <!-- END CONTAINER -->
     </body>
+    <?php get_scripts_tag() ?>
+    
 </html>

@@ -13,12 +13,9 @@
             ?>
 
             <div id="gallery-holder" class="shadow" >
-                <ul>
-                    <li>
+                
                         <img src="images/ponte-della-musica.jpg" title="Ponte della Musica" alt="slideshow 1" width="690" height="495" />
-                    </li>
-
-                </ul> <!-- END SLIDESHOW -->
+                    
             </div> <!-- END GALLERY HOLDER -->
             <?php get_footer()
             ?>

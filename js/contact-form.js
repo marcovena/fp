@@ -35,7 +35,7 @@ $(document).ready( function() {
                     // has been received; here we apply a fade-in effect to the new content
                     success: function() {
                         $('img.spinner').hide();
-                        $('.output').text("Grazie per avermi contattato.").fadeIn('slow').delay(800).fadeOut('slow');
+                        $('.output').text("Grazie per avermi contattato.").fadeIn('slow').delay(800).fadeOut('slow'); //TODO: metti il testo nel html
                     },
                 });
 
