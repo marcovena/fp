@@ -35,10 +35,12 @@ $gallery_folders = Array("images/gallery/hpano", "images/gallery/vpano", "images
             </div>
 
         </div>
-    </body>
+        
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/galleria/galleria-1.2.4.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    </body>
+    
 
     <script>
         Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');

@@ -28,6 +28,14 @@ function get_header_bar($forPage) {
      </div>
      <h4>fine art photography</h4>
      </div></a> */
+    
+    $gallery_id=0;
+    if(isset($_GET) && (!empty($_GET))) {
+    $gallery_id = $_GET['id'];
+    
+    }
+    
+    
     echo '<div id="header" class="not-selectable">
                 <a class="home-logo" href="index2.php" title="index2"> 
                 
@@ -40,23 +48,23 @@ function get_header_bar($forPage) {
         echo '<ul class="sub-menu">
 
                             <li>
-                                <a class="active" href="gallery.php?id=0">Pano Orizzontali</a>
+                                <a ' . ($gallery_id==0 ? 'class="active"' : null) . ' href="gallery.php?id=0">Pano Orizzontali</a>
                             </li>
                             <li>
-                                <a href="gallery.php?id=1">Pano Verticali</a>
+                                <a ' . ($gallery_id==1 ? 'class="active"' : null) . ' href="gallery.php?id=1">Pano Verticali</a>
                             </li>
                             <li>
-                                <a href="gallery.php?id=2">Sblinde</a>
+                                <a ' . ($gallery_id==2 ? 'class="active"' : null) . ' href="gallery.php?id=2">Sblinde</a>
                             </li>
                         </ul>';
     }
 
     echo '</li>
                     <li>
-                        <a href="info.php" ',     addActive($forPage, 'info'), ' >Info</a>
+                        <a href="info.php" ', addActive($forPage, 'info'), ' >Info</a>
                     </li>
                     <li>
-                        <a href="contact.php" ',     addActive($forPage, 'contact'), ' >Contatti</a>
+                        <a href="contact.php" ', addActive($forPage, 'contact'), ' >Contatti</a>
                     </li>
                 </ul>
             </div> ';

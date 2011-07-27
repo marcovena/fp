@@ -241,9 +241,13 @@ a:hover {
     
     font-size:12pt;
     
-    
-    
 }
+
+#header ul.sub-menu li a {
+color: #ddd;
+padding: 1px 5px;
+}
+
 /* Slideshow Gallery Content*/
 #gallery-holder {
     position: relative;
