@@ -15,7 +15,7 @@ require_once ('include.php');
                         Nato nel 1980 a Roma, inizia gli studi presso la Scuola Romana di Fotografia dove approfondisce le propria tecnica attraverso un intenso utilizzo di attrezzatura a pellicola, sviluppando e stampando in autonomia le proprie foto.
                     </p>
                     <p>
-                        Pur realizzando tra gli altri lavori anche reportage geografici e di viaggio, si specializza ben presto nella fotografia paesaggistica, dove concentra la maggiorparte del proprio impegno.
+                        Pur realizzando tra gli altri lavori anche reportage geografici e di viaggio, si specializza ben presto nella fotografia paesaggistica, dove concentra la maggior parte del proprio impegno.
                     </p>
                     <p>
                         Utilizza attrezzatura digitale, ma predilige per gli scatti di paesaggio l’uso di una macchina panoramica grande formato, scansionando le immagini con scanner a tamburo ad alta risoluzione e curando personalmente l’intero processo che va dalla postproduzione alla stampa delle sue intera collezione fotografica,
