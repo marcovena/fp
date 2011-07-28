@@ -25,10 +25,7 @@ require_once ('include.php');
                     </p>
                 </div>
                 <div class="bio-divider"></div>
-                
-                    <img class="bio-image-content" src="images/bio-image-content.png" alt="bio image content" title="Epson Awarded Photo" width="300"/>
-              
-                
+                <img class="bio-image-content" src="images/bio-image-content.png" alt="bio image content" title="Epson Awarded Photo" width="300"/>
                 <div class="clearfix"></div>
             </div><!-- END BIO-WRAPPER -->
             <div id="footer">

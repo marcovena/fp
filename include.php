@@ -80,9 +80,11 @@ function get_footer() {
 
 function addActive($forPage, $placeholder) {
 
-    if($forPage == $placeholder) {
+    if($forPage == $placeholder || ($forPage == "gallery" && $placeholder == 'photos')) {
+        
         echo 'class="active"';
 
     }
+        
 }
 ?>
