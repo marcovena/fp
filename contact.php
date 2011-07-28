@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <?php get_head('Contatti');
     ?>
-    <body>
+    <body id="contact-page">
         <div id="wrapper">
             <?php get_header_bar('contact');
             ?>
@@ -21,9 +21,11 @@
                     
                         <a href="tel:+393471971764">(+39)3471971764</a>
                     </p>
+                    <p class="follow-button"><a href="http://twitter.com/paolifrancesco" class="twitter-follow-button" data-show-count="false" data-lang="it" data-align="right">Follow @paolifrancesco</a>
+	                </p>
                     <p>Oppure compilare il form seguente:</p>
                 </div>
-
+                <div class="bio-divider"></div>
                 <form class="form" accept-charset"utf-8" action="process.php" method="post">
 
                     <p class="name">
@@ -67,6 +69,7 @@
             <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js"></script>
             <script type="text/javascript" src="js/jquery.form.js"></script>
             <script type="text/javascript" src="js/contact-form.js"></script>
+            <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
         </div>
     </body>
 </html>

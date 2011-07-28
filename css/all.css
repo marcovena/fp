@@ -325,19 +325,30 @@ padding: 1px 5px;
 
 #contact-wrapper {
     margin:50px auto;
-    width: 600px;
+    width: auto;
 }
 /* CONTACT INTRO */
 
 .contact-intro {
+   
+    float:left;
     font-size: 12pt;
     font-family: 'DekarRegular';
-    line-height:130%;
-    margin-bottom: 60px;
+    line-height:150%;
+    margin: 60px 30px 10px 50px;
+    text-align:right;
+    
+    width: 380px;
 }
 .contact-intro p {
     margin: 20px 0;
 }
+/*not needed
+.contact-intro .follow-button {
+  text-align: right;
+}
+*/
+
 .contact-intro .details {
     color:#777777;
     font-size: 12pt;
@@ -345,6 +356,10 @@ padding: 1px 5px;
 .contact-intro .details a:link {
     color:#777777;
 }
+#contact-wrapper .bio-divider {
+   
+}
+
 /* CONTACT FORM */
 #contact-wrapper input, #contact-wrapper textarea {
     padding: 9px;
@@ -359,7 +374,11 @@ padding: 1px 5px;
     -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
     -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
     margin-bottom: 25px;
+    margin-left: 25px;
 }
+
+
+
 #contact-wrapper textarea {
     width: 400px;
     max-width: 400px;
@@ -381,6 +400,12 @@ padding: 1px 5px;
     top:-10px;
     color: #999999;
 }
+
+#contact-wrapper .form{
+    float:right;
+    margin: 50px 30px 0 0;
+}
+
 #contact-wrapper .form p {
     margin-bottom: 10px;
     position: relative;

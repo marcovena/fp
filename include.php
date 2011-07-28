@@ -61,10 +61,10 @@ function get_header_bar($forPage) {
 
     echo '</li>
                     <li>
-                        <a href="bio.php" ', addActive($forPage, 'bio'), ' >Bio</a>
+                        <a href="info.php" ', addActive($forPage, 'info'), ' >Info</a>
                     </li>
                     <li>
-                        <a href="info.php" ', addActive($forPage, 'info'), ' >Info</a>
+                        <a href="bio.php" ', addActive($forPage, 'bio'), ' >Bio</a>
                     </li>
                     <li>
                         <a href="contact.php" ', addActive($forPage, 'contact'), ' >Contatti</a>
