@@ -182,7 +182,7 @@ a:hover {
 #header ul.nav-menu {
     font-size: 18pt;
     position:absolute;
-    right:0; top:0;
+    right:0; top:3px;
     font-family: 'DekarRegular';
     margin:15px 54px 15px 15px;
    
@@ -191,6 +191,8 @@ a:hover {
     margin-left: 30px;
     display: inline;
     text-transform: uppercase;
+    
+   
 }
 #header ul.nav-menu li a {
     color: #aeaeae;
@@ -227,7 +229,7 @@ a:hover {
     display:none;
     
     position:absolute;
-    top:38px;
+    top:27px;
     right:0px;
     margin-right: 0px;
     width:200%;

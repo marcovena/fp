@@ -6,7 +6,7 @@
     ?>
     <body>
         <div id="wrapper">
-            <?php get_header_bar('Contatti');
+            <?php get_header_bar('contact');
             ?>
             <div id="contact-wrapper">
 
