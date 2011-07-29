@@ -51,6 +51,7 @@ $gallery_folders = Array("images/gallery/hpano", "images/gallery/vpano", "images
             transition: 'fade',
             overlayOpacity: 0.8,
             thumbCrop: true,
+            showInfo: false,
 
         });
     </script>
