@@ -38,7 +38,7 @@
                     <p class="email">
                         <input type="text" name="email" id="email"/>
                         <label for="email">
-                            E-mail
+                            E-mail <span class=required>*</span>
                         </label>
                     </p>
 
@@ -59,8 +59,9 @@
                         <img class="spinner" src="images/animated_progress.gif" width="32" alt="animated_progress"/>
                     </p>
 
+                <p class="output clearfix">
                 </form>
-                <p class="output">
+                
                 </p>
 
             </div>
