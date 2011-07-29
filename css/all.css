@@ -355,7 +355,8 @@ padding: 1px 5px;
 
 .contact-intro .details {
     color:#777777;
-    font-size: 12pt;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
 .contact-intro .details img {

@@ -19,7 +19,7 @@
                        <img src="images/fp-mail.png"  />
                         <br/>
                     
-                        <a href="tel:+393471971764">(+39)3471971764</a>
+                        <a href="tel:+393471971764"> (+39)347-1971764</a>
                     </p>
                     <p class="follow-button"><a href="http://twitter.com/paolifrancesco" class="twitter-follow-button" data-show-count="false" data-lang="it" data-align="right">Follow @paolifrancesco</a>
 	                </p>
