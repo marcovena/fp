@@ -18,7 +18,7 @@ require_once ('include.php');
                         Pur realizzando tra gli altri lavori anche reportage geografici e di viaggio, si specializza ben presto nella fotografia paesaggistica, dove concentra la maggior parte del proprio impegno.
                     </p>
                     <p>
-                        Utilizza attrezzatura digitale, ma predilige per gli scatti di paesaggio l’uso di una macchina panoramica grande formato, scansionando le immagini con scanner a tamburo ad alta risoluzione e curando personalmente l’intero processo che va dalla postproduzione alla stampa delle sue intera collezione fotografica,
+                        Utilizza attrezzatura digitale, ma predilige per gli scatti di paesaggio l’uso di una macchina panoramica grande formato, scansionando le immagini con scanner a tamburo ad alta risoluzione e curando personalmente l’intero processo che va dalla postproduzione alla stampa della sua intera collezione di opere fotografiche,
                     </p>
                     <p>
                         Nel 2011 ottiene il riconoscimento Bronze Award al concorso Epson international pano award per tre delle fotografie presentate.
