@@ -18,7 +18,7 @@ require_once ('include.php');
                 <h1>DEMO - IMAGE ZOOM SCRIPT</h1>
                 <a href="http://upload.wikimedia.org/wikipedia/commons/c/cb/Heliophanus_white_background.jpg" class='cloud-zoom'
                 rel="zoomWidth:200,zoomHeight: 200 ,adjustX: 10, adjustY:-4" width="520">
-                <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Heliophanus_white_background.jpg/800px-Heliophanus_white_background.jpg" alt='Alternate image' title="Sapevatelo"" />
+                <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Heliophanus_white_background.jpg/800px-Heliophanus_white_background.jpg" alt='Alternate image' title="Sapevatelo" />
                 </a>
 
             </div>
