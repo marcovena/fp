@@ -14,8 +14,11 @@ $gallery = new GalleryCreator('');
 
 $gallery_folders = Array("images/gallery/hpano", "images/gallery/vpano", "images/gallery/standard");
 ?>
-<!DOCTYPE html>
-<html>
+
+<?php require_once('include.php');?>
+
+<!doctype html>
+<?php get_html_tag(); ?>
     <head>
         <?php get_head('Gallery');?>
     </head>

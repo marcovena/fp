@@ -128,7 +128,6 @@ function addActive($forPage, $placeholder) {
 
     if($forPage == $placeholder) {
         echo 'class="active"';
-
     }
 }
 ?>

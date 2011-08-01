@@ -1,6 +1,6 @@
 /* Author: Marco Venanzi
-   Includes all the site specific scripts
-*/
+ Includes all the site specific scripts
+ */
 $(document).ready(function() {
 
     $('.sub-menu').hide().delay(300).fadeIn(400);
@@ -12,14 +12,12 @@ $(document).ready(function() {
         initStyleSwitcher();
     }
 
-  /*  $('ul.sub-menu li a').each(function() {
-        if($(this).hasClass('active') == false) {
-            this.style.color = 'red';
-        }
-    });*/   
+    /*  $('ul.sub-menu li a').each(function() {
+     if($(this).hasClass('active') == false) {
+     this.style.color = 'red';
+     }
+     });*/
 });
-
-
 //create a toggle switcher that will toggle the site theme from dark to white
 function initStyleSwitcher() {
     var styleSwitcher = '<div id="style-switcher" class="not-selectable"><ul><li id="light-style-switch" class="shadow">Light</li><li id="dark-style-switch" class="shadow">Dark</li></ul></div>';
@@ -47,62 +45,46 @@ function initStyleSwitcher() {
  * Initialize the contact form validation and submission
  */
 function InitFormValidation() {
-        var f = $(".form").validate({
-            rules: {
-                name: "required",
+    var f = $(".form").validate({
+        rules : {
+            name : "required",
 
-                email: {
-                    required: true,
-                    email: true
-                },
-                text: {
-                    maxlength: 1000, minlength:5
-                }
+            email : {
+                required : true,
+                email : true
             },
-            messages: {
-                name: "Per favore inserisci il tuo nome",
-                email: {
-                    required: "Riempire campo e-mail",
-                    email: "Formato: nome@dominio.com"
-                },
-                text: {minlength:"Inserisci il messaggio"}
+            text : {
+                maxlength : 1000,
+                minlength : 5
             }
-            ,
-            submitHandler: function(form) {
-                $(".form").ajaxSubmit({
-                    beforeSubmit: function () {
-                        $('img.spinner').show();
+        },
+        messages : {
+            name : "Per favore inserisci il tuo nome",
+            email : {
+                required : "Riempire campo e-mail",
+                email : "Formato: nome@dominio.com"
+            },
+            text : {
+                minlength : "Inserisci il messaggio"
+            }
+        },
+        submitHandler : function(form) {
+            $(".form").ajaxSubmit({
+                beforeSubmit : function() {
+                    $('img.spinner').show();
 
-                    },
-                    // success identifies the function to invoke when the server response
-                    // has been received; here we apply a fade-in effect to the new content
-                    success: function() {
-                        $('img.spinner').hide();
-                        $('.output').text("Grazie per avermi contattato.").fadeIn('slow').delay(800).fadeOut('slow'); //TODO: metti il testo nel html
-                    },
-                });
+                },
+                // success identifies the function to invoke when the server response
+                // has been received; here we apply a fade-in effect to the new content
+                success : function() {
+                    $('img.spinner').hide();
+                    $('.output').text("Grazie per avermi contattato.").fadeIn('slow').delay(800).fadeOut('slow');
+                    //TODO: metti il testo nel html
+                },
+            });
 
-            } //end submit handler
-        }); //end validate
-        return false;
-    } //end do-validate
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        } //end submit handler
+    });
+    //end validate
+    return false;
+} //end do-validate

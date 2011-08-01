@@ -1,12 +1,12 @@
 $(document).ready( function() {
 
-    doValidate();
+    InitFormValidation();
 
     //validate and submit ajax form
     
 });
 
-function doValidate() {
+function InitFormValidation() {
         var f = $(".form").validate({
             rules: {
                 name: "required",
