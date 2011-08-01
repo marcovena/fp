@@ -37,11 +37,6 @@ function get_head($suff) {
       <!--    <link rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (min-width:200px) and (max-width:480px)"/> -->
       
       <script src="js/libs/modernizr-1.7.min.js"></script>
-      
-      
-      
-      
-      
       ';
 
 }
@@ -125,8 +120,7 @@ function get_scripts_tag(){
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
     g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
     s.parentNode.insertBefore(g,s)}(document,"script"));
-  </script>
-  ';
+  </script>';
     
 }
 

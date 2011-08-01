@@ -3,7 +3,10 @@ $(document).ready( function() {
     doValidate();
 
     //validate and submit ajax form
-    function doValidate() {
+    
+});
+
+function doValidate() {
         var f = $(".form").validate({
             rules: {
                 name: "required",
@@ -43,5 +46,3 @@ $(document).ready( function() {
         }); //end validate
         return false;
     } //end do-validate
-
-});
