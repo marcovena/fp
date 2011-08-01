@@ -87,7 +87,10 @@ function get_header_bar($forPage) {
                         <a href="info.php" ',  addActive($forPage, 'info'), ' >Info</a>
                     </li>
                     <li>
-                        <a href="contact.php" ',  addActive($forPage, 'contact'), ' >Contatti</a>
+                        <a href="bio.php" ', addActive($forPage, 'bio'), ' >Bio</a>
+                    </li>
+                    <li>
+                        <a href="contact.php" ', addActive($forPage, 'contact'), ' >Contatti</a>
                     </li>
                 </ul>
             </div> ';
@@ -127,8 +130,10 @@ function get_scripts_tag(){
 
 function addActive($forPage, $placeholder) {
 
-    if($forPage == $placeholder) {
+    if($forPage == $placeholder || ($forPage == "gallery" && $placeholder == 'photos')) {
+        
         echo 'class="active"';
     }
+        
 }
 ?>

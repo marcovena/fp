@@ -4,6 +4,7 @@
 .project
 .settings
 .metadata
+
 # Numerous always-ignore extensions
 *.diff
 *.err

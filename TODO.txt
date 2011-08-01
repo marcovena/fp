@@ -5,9 +5,11 @@ Switch per cambiare tema (bianco/scuro)
 
 Aggiornare dettagli mail server
 
-Diminuire spaziatura tra header e bordo superiore pagina (circa metà di quanto è ora)
+Diminuire spaziatura tra header e bordo superiore pagina (circa metï¿½ di quanto ï¿½ ora)
 Diminuire spaziatura tra le immagini di preview nella pagina photos (per farle entrare tutte senza scroll)
 
 Centratura Thumbs nelle gallery (by Frengo!)
 
 Aggiungere scritta in basso " All right reserved" nella pagina photo.
+
+tmp

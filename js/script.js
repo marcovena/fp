@@ -3,7 +3,10 @@
  */
 $(document).ready(function() {
 
-    $('.sub-menu').hide().delay(300).fadeIn(400);
+    //enable header animation
+    if($('#header').length) {
+        $('.sub-menu').hide().delay(300).fadeIn(400);
+    }
 
     //enable theme switcher
     var loc = window.location;
@@ -12,11 +15,26 @@ $(document).ready(function() {
         initStyleSwitcher();
     }
 
-    /*  $('ul.sub-menu li a').each(function() {
-     if($(this).hasClass('active') == false) {
-     this.style.color = 'red';
-     }
-     });*/
+    //fade bio image in
+    if($('body#bio').length) {
+        $img = $('img.bio-image-content');
+
+        $img
+        .animate({
+            opacity : 1,
+            height : 'toggle'
+        }, 1000, function() {
+            // Animation complete.
+        });
+    }
+
+});
+$(document).ready(function() {
+
+    InitFormValidation();
+
+    //validate and submit ajax form
+
 });
 //create a toggle switcher that will toggle the site theme from dark to white
 function initStyleSwitcher() {

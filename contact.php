@@ -2,11 +2,13 @@
 
 <!doctype html>
 <?php get_html_tag(); ?>
+    <head>
     <?php get_head('Contatti');
     ?>
-    <body>
+    </head>
+    <body id="contact-page">
         <div id="wrapper">
-            <?php get_header_bar('Contatti');
+            <?php get_header_bar('contact');
             ?>
             <div id="contact-wrapper">
 
@@ -19,11 +21,13 @@
                        <img src="images/fp-mail.png"  />
                         <br/>
                     
-                        <a href="tel:+393471971764">(+39)3471971764</a>
+                        <a href="tel:+393471971764"> (+39)347-1971764</a>
                     </p>
+                    <p class="follow-button"><a href="http://twitter.com/paolifrancesco" class="twitter-follow-button" data-show-count="false" data-lang="it" data-align="right">Follow @paolifrancesco</a>
+	                </p>
                     <p>Oppure compilare il form seguente:</p>
                 </div>
-
+                <div class="bio-divider"></div>
                 <form class="form" accept-charset"utf-8" action="process.php" method="post">
 
                     <p class="name">
@@ -36,7 +40,7 @@
                     <p class="email">
                         <input type="text" name="email" id="email"/>
                         <label for="email">
-                            E-mail
+                            E-mail <span class=required>*</span>
                         </label>
                     </p>
 
@@ -57,16 +61,17 @@
                         <img class="spinner" src="images/animated_progress.gif" width="32" alt="animated_progress"/>
                     </p>
 
+                <p class="output clearfix">
                 </form>
-                <p class="output">
+                
                 </p>
 
             </div>
             <!-- END WRAPPER -->
            
             <?php get_scripts_tag() ?>
-                        <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js"></script>
-
+            <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js"></script>
+            <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
         </div>
     </body>
 </html>
