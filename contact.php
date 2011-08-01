@@ -63,10 +63,9 @@
 
             </div>
             <!-- END WRAPPER -->
-            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+           
             <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js"></script>
-            <script type="text/javascript" src="js/jquery.form.js"></script>
-            <script type="text/javascript" src="js/contact-form.js"></script>
+            <?php get_scripts_tag() ?>
         </div>
     </body>
 </html>
