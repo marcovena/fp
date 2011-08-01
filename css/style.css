@@ -64,7 +64,8 @@ input, select { vertical-align: middle; }
  * Font normalization inspired by YUI Library's fonts.css: developer.yahoo.com/yui/
  */
 
-body { font:13px/1.231 sans-serif; *font-size:small; } /* Hack retained to preserve specificity */
+body { font:13px/1.231 sans-serif; *font-size:small; /* Hack retained to preserve specificity */
+-webkit-text-stroke: 1px transparent; } /* VENANZI: Enable Antialiasing on chrome */
 select, input, textarea, button { font:99% sans-serif; }
 
 /* Normalize monospace sizing:
