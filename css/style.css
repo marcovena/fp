@@ -418,6 +418,7 @@ padding: 1px 5px;
     width:inherit;
     height: inherit;
     display: block;
+    
 }
 .photo-content-image-1 {
     background-image: url('../images/iceland.jpg');
@@ -441,7 +442,8 @@ padding: 1px 5px;
     font-size: 20pt;
     font-family: 'DekarRegular';
     text-transform: uppercase;
-    text-shadow: #555 1px 1px 1px;
+    text-shadow: #777 0px 1px 2px;
+    color: #000;
 }
 /*-------------------*/
 /*     FORM          */

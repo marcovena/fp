@@ -20,7 +20,8 @@
             <?php get_footer()
             ?>
         </div><!-- END WRAPPER -->
-    </body>
-    <?php get_scripts_tag()
+        <?php get_scripts_tag()
     ?>
+    </body>
+    
 </html>

@@ -64,8 +64,9 @@
             </div>
             <!-- END WRAPPER -->
            
-            <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js"></script>
             <?php get_scripts_tag() ?>
+                        <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js"></script>
+
         </div>
     </body>
 </html>

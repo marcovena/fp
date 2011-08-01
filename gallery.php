@@ -36,26 +36,18 @@ $gallery_folders = Array("images/gallery/hpano", "images/gallery/vpano", "images
                 $gallery -> getGallery();
                 ?>
             </div>
-
         </div>
         
      <?php get_scripts_tag() ?>
-     
-     
-    <script type="text/javascript" src="js/galleria/galleria-1.2.4.min.js"></script> 
-    
-    <script type="text/javascript" src="js/main.js"></script>  
-    
-
+    <script type="text/javascript" src="js/mylibs/galleria/galleria-1.2.4.min.js"></script> 
     <script>
-        Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
+        Galleria.loadTheme('js/mylibs/galleria/themes/classic/galleria.classic.min.js');
         $("#gallery").galleria({
             width: 1000,
             height: 600,
             transition: 'fade',
             overlayOpacity: 0.8,
             thumbCrop: true,
-
         });
     </script>
     </body>

@@ -21,7 +21,9 @@
             <?php get_footer()
             ?>
         </div> <!-- END CONTAINER -->
+         
+        <?php get_scripts_tag() ?>
     </body>
-    <?php get_scripts_tag() ?>
+  
     
 </html>

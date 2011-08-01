@@ -97,13 +97,14 @@ function get_header_bar($forPage) {
 /* get the footer for the pages */
 
 function get_footer() {
-    echo '<div id="footer" >&copy; All rights reserved - Francesco Paoli 2011</div>';
+    echo '<div id="footer">&copy; All rights reserved - Francesco Paoli 2011</div>';
 
 }
 
 function get_scripts_tag(){
+ 
    echo '<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-  <script>window.jQuery || document.write("<script src="js/libs/jquery-1.5.1.min.js"">\x3C/script>")</script>
+  <script>window.jQuery || document.write("<script src="js/libs/jquery-1.5.1.min.js\">\x3C/script>")</script>
   <!-- scripts concatenated and minified via ant build script-->
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>

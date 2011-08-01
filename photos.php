@@ -42,6 +42,7 @@
                 &copy; All rights reserved - Francesco Paoli 2011 
             </div>
         </div><!-- END WRAPPER -->
+         <?php get_scripts_tag() ?>
     </body>
-     <?php get_scripts_tag() ?>
+    
 </html>
