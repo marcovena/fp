@@ -232,6 +232,7 @@ a:hover {
     font-weight: normal;
     font-style: normal;
 }
+
 /*-------------------*/
 /*     LANDING PAGE  */
 /*-------------------*/
@@ -472,7 +473,7 @@ padding: 1px 5px;
     margin: 60px 60px 10px 50px;
     text-align:right;
     
-    width: 350px;
+    width: 388px;
 }
 
 .contact-intro p {
@@ -500,7 +501,7 @@ padding: 1px 5px;
     border: solid 1px #E5E5E5;
     outline: 0;
     font: normal 11px/100% Verdana, Tahoma, sans-serif;
-    width: 200px;
+    width: 180px;
     
     background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
     background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
@@ -512,7 +513,7 @@ padding: 1px 5px;
 }
 
 #contact-wrapper textarea {
-    width: 400px;
+    width: 300px;
     max-width: 400px;
     height: 150px;
     line-height: 150%;
@@ -528,22 +529,23 @@ padding: 1px 5px;
 }
 #contact-wrapper input:focus, #contact-wrapper textarea:focus {
     background:none;
-    background-color: rgba(230,240,240,0.9);
+    background-color: rgba(230,240,246,0.9);
+}
+
+
+#contact-wrapper .form{
+    float:right;
+    margin: 50px 95px 0 0;
+    
 }
 #contact-wrapper .form label {
     margin-left: 10px;
-     font-size: 12pt;
+    font-size: 12pt;
     font-family: 'DekarRegular';
     padding-bottom: 25px;
     position:relative;
     top:-10px;
     color: #999999;
-    
-}
-
-#contact-wrapper .form{
-    float:right;
-    margin: 50px 30px 0 0;
     
 }
 
@@ -571,7 +573,8 @@ padding: 1px 5px;
     background-color: #c7ffc1;
     color:#008000;
     
-   
+    
+   font-size: 14pt;
     font-weight: bold;
     padding:20px 5px;
  
@@ -590,7 +593,7 @@ padding: 1px 5px;
 #contact-wrapper p.text label.error {
     position: absolute;
     top: 175px;
-    left: 136px;
+    left: 0;
 }
 /*div {
  margin:0; padding:0; border:1px solid #F00; }
@@ -602,20 +605,14 @@ padding: 1px 5px;
 
 #info-wrapper {
     margin:20px 10px;
-    background-color: #E9E9E9;
-    background-color: rgba(210,210,210, 0.3);
-    width: auto;
-    border-bottom: 1px solid #CCC;
-    border-top: 1px solid white;
-    border-right: 1px solid #CCC;
-    padding-top: 130px;
+    padding-top: 60px;
    
 }
 .info-text {
     font-family: 'DekarRegular';
     font-size: 14pt;
     line-height:1.3em;
-    margin: 30px 75px 160px 87px;
+    margin: 60px 75px 160px 87px;
     
     padding: 0 5px;
     position:relative;
@@ -644,7 +641,7 @@ padding: 1px 5px;
 
 .info-image{
    
-    margin: 0 80px 0 0;
+    margin: 30px 80px 0 0;
     float:right;
    
 }
@@ -690,8 +687,6 @@ padding: 1px 5px;
     float:left;
     width: 50px;
     height: 600px;
-    
-    
 }
 
 img.bio-image-content {
@@ -773,6 +768,47 @@ top:-2px;
 
 
 /*FINE DEI MIEI STILI*/
+
+/*
+ * CLOUD ZOOM  
+ */
+
+
+/* This is the moving lens square underneath the mouse pointer. */
+.cloud-zoom-lens {
+    border: 4px solid #888;
+    margin:-4px;    /* Set this to minus the border thickness. */
+    background-color:#fff;  
+    cursor:move;        
+}
+
+/* This is for the title text. */
+.cloud-zoom-title {
+    font-family:Arial, Helvetica, sans-serif;
+    position:absolute !important;
+    background-color:#000;
+    color:#fff;
+    padding:3px;
+    width:100%;
+    text-align:center;  
+    font-weight:bold;
+    font-size:10px;
+    top:0px;
+}
+
+/* This is the zoom window. */
+.cloud-zoom-big {
+    border:4px solid #ccc;
+    overflow:hidden;
+}
+
+/* This is the loading message. */
+.cloud-zoom-loading {
+    color:white;    
+    background:#222;
+    padding:3px;
+    border:1px solid #000;
+}
 
 
 

@@ -2,7 +2,7 @@
  Includes all the site specific scripts
  */
 $(document).ready(function() {
-
+/*
     //enable header animation
     if($('#header').length) {
         $('.sub-menu').hide().delay(300).fadeIn(400);
@@ -27,15 +27,13 @@ $(document).ready(function() {
             // Animation complete.
         });
     }
-
+    
+   /* if(document.forms[0]!==null){
+     InitFormValidation();
+     }*/
+    
 });
-$(document).ready(function() {
 
-    InitFormValidation();
-
-    //validate and submit ajax form
-
-});
 //create a toggle switcher that will toggle the site theme from dark to white
 function initStyleSwitcher() {
     var styleSwitcher = '<div id="style-switcher" class="not-selectable"><ul><li id="light-style-switch" class="shadow">Light</li><li id="dark-style-switch" class="shadow">Dark</li></ul></div>';
@@ -64,6 +62,7 @@ function initStyleSwitcher() {
  */
 function InitFormValidation() {
     var f = $(".form").validate({
+        debug : true,
         rules : {
             name : "required",
 
@@ -83,7 +82,8 @@ function InitFormValidation() {
                 email : "Formato: nome@dominio.com"
             },
             text : {
-                minlength : "Inserisci il messaggio"
+                minlength : "Inserisci il messaggio",
+                maxlength : "Limite massimo 1000 caratteri"
             }
         },
         submitHandler : function(form) {

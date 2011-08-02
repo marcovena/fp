@@ -1,4 +1,4 @@
-$(document).ready( function() {
+/*$(document).ready( function() {
 
     InitFormValidation();
 
@@ -46,3 +46,4 @@ function InitFormValidation() {
         }); //end validate
         return false;
     } //end do-validate
+*/
