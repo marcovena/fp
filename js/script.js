@@ -2,7 +2,7 @@
  Includes all the site specific scripts
  */
 $(document).ready(function() {
-/*
+
     //enable header animation
     if($('#header').length) {
         $('.sub-menu').hide().delay(300).fadeIn(400);

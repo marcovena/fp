@@ -24,7 +24,7 @@ require_once ('include.php');
                 </div><!-- END info-text -->
                 <div class="bio-divider"></div>
                 <div class="info-image">
-                    <a href="images/ponte-della-musica.jpg" class="cloud-zoom" rel="zoomWidth:100,zoomHeight: 100 ,adjustX: 10, adjustY:"><img src="images/zoom-image.jpg" alt="image sample" width="260" /> </a>
+                    <a href="images/ponte-della-musica.jpg" class="cloud-zoom" rel="zoomWidth: 100, zoomHeight: 100 ,adjustX: 10, adjustY:10"><img src="images/zoom-image.jpg" alt="image sample" width="260"> </a>
                 </div>
                 <div class="clearfix"></div>
             </div>
