@@ -32,6 +32,7 @@ require_once ('include.php');
                 &copy; All rights reserved - Francesco Paoli 2011 
             </div>
         </div><!-- END BIO-WRAPPER -->
-    </body>
-   <?php get_scripts_tag();?>
+<?php get_scripts_tag();?>  
+ </body>
+   
 </html>
