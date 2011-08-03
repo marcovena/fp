@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     //enable header animation
     if($('#header').length) {
-        $('.sub-menu').hide().delay(300).fadeIn(400);
+        $('.sub-menu:hidden').delay(300).fadeIn(400);
     }
 
     //enable theme switcher
