@@ -188,6 +188,15 @@ a:hover {
     text-decoration:none;
     color: #0285da;
 }
+
+/*
+ * HELPERS - Classi generiche per effetti e ombre
+ */
+
+.clearfix {
+    clear: both;
+}
+
 .shadow {
     -moz-box-shadow:  0px 5px  5px #ccc;
     -webkit-box-shadow:   0px 5px  5px #ccc;
@@ -237,9 +246,7 @@ a:hover {
 /*     LANDING PAGE  */
 /*-------------------*/
 
-/*#landing *{
- border: 1px solid red;
- }*/
+
 #landing #container {
     margin: 90px auto;
     width: 690px;
@@ -274,13 +281,18 @@ a:hover {
     color: #CCC;
     border-bottom: 1px solid #DDD;
     text-shadow: rgba(255, 255,255, .3) 3px 3px 6px;
-    -webkit-transition: all .5s ease;
+   
+     -webkit-transition: all .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
    
 }
 
 
 /*||||||||||||| END LANDING PAGE |||||||||||||| */
 
+
+/* wrapper usato su molte pagine*/
 #wrapper {
     width: 994px;
     overflow: hidden;
@@ -311,13 +323,14 @@ a:hover {
 
 #header a.home-logo:hover {
     
+opacity:.5;    
 }
 #header ul.nav-menu {
     font-size: 18pt;
     position:absolute;
-    right:0; top:0;
+    right:0; top:3px;
     font-family: 'DekarRegular';
-    margin:15px;
+    margin:15px 54px 15px 15px;
    
 }
 #header ul.nav-menu li {
@@ -341,10 +354,6 @@ a:hover {
     -o-transition:All 300ms ease-in-out;
 }
 
-/*disabilitato*/
-#heade300ms.nav-menu li a:active {
-   
-}
 
 #header-divider {
     border-top-color: #aeaeae;
@@ -360,7 +369,7 @@ a:hover {
     display:none;
     
     position:absolute;
-    top:38px;
+    top:35px;
     right:0px;
     margin-right: 0px;
     width:200%;
@@ -437,11 +446,11 @@ padding: 1px 5px;
     background-image: url('../images/land-main.jpg');
     background-position: top center;
 }
-.photo-content-image img {
-}
+
 .photo-content-image p {
     background-image: url('../images/transp-bg.png');
-    width:490px;
+    color:#111;
+    
     bottom:0;
     left:0;
     position: absolute;
@@ -449,8 +458,12 @@ padding: 1px 5px;
     font-size: 20pt;
     font-family: 'DekarRegular';
     text-transform: uppercase;
-    text-shadow: #777 0px 1px 2px;
-    color: #000;
+    text-shadow: #555 1px 1px 1px;
+    width:490px;
+}
+
+.photo-content-image p:hover {
+    opacity: .85; 
 }
 
 
