@@ -1,10 +1,8 @@
 <?php
 require_once ('include.php');
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
 <?php get_html_tag();?>
-<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <?php get_head('Info');?>
         <title></title>
@@ -24,13 +22,17 @@ require_once ('include.php');
                 </div><!-- END info-text -->
                 <div class="bio-divider"></div>
                 <div class="info-image">
-                    <a href="images/ponte-della-musica.jpg" class="cloud-zoom" rel="zoomWidth: 100, zoomHeight: 100 ,adjustX: 10, adjustY:10"><img src="images/zoom-image.jpg" alt="image sample" width="260"> </a>
+                    <a href="images/zoom-sample.jpg" class="cloud-zoom" rel="position: 'left' , adjustX: -30, adjustY:-2"><img src="images/zoom-sample-small.jpg" alt="image sample" width="260" height="323"/> </a>
+                
                 </div>
                 <div class="clearfix"></div>
             </div>
-        </div><!-- END info-wrapper -->
+            
         <div id="footer">
             © All rights reserved - Francesco Paoli 2011&nbsp;
-        </div><?php get_scripts_tag();?>
+        </div>
+        </div><!-- END info-wrapper -->
+        <?php get_scripts_tag();?>
+       
     </body>
 </html>
