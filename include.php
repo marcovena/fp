@@ -34,7 +34,7 @@ function get_head($suff) {
           <link rel="stylesheet" href="css/style.css?v=3">
           
       
-      <script src="js/libs/modernizr-1.7.min.js"></script>
+          <script src="js/libs/modernizr-1.7.min.js"></script>
       ';
 
 }

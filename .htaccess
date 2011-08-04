@@ -468,7 +468,7 @@ AddCharset utf-8 .html .css .js .xml .json .rss
 # reset everything to PHP defaults. Consult www.php.net for more detailed
 # information about setting PHP directives.
 
-php_flag register_globals Off #VENANZI: enables, was off by default
+php_flag register_globals On 
 
 
 

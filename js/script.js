@@ -19,8 +19,7 @@ $(document).ready(function() {
     if($('body#bio').length) {
         $img = $('img.bio-image-content');
 
-        $img
-        .animate({
+        $img.load().animate({
             opacity : 1,
             height : 'toggle'
         }, 1000, function() {
@@ -29,8 +28,9 @@ $(document).ready(function() {
     }
     
      //init the form validation for sending emails
+    if($('#contact-page').length) {
      InitFormValidation();
-     
+     }
     
 });
 
