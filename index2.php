@@ -1,8 +1,6 @@
 <?php require_once('include.php')
 ?>
 
-<!DOCTYPE html>
-<?php require_once('include.php');?>
 
 <!doctype html>
 <?php get_html_tag(); ?>

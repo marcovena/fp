@@ -22,7 +22,7 @@ require_once ('include.php');
                     <a href="tel:+393471971764"> (+39)347-1971764</a>
                 </p>
                 <p class="follow-button">
-                    <a href="http://twitter.com/paolifrancesco" class="twitter-follow-button" data-show-count="false" data-lang="it" data-align="right">Follow @paolifrancesco</a>
+                    <a href="http://twitter.com/paolifrancesco" class="twitter-follow-button" data-show-count="true" data-lang="it" data-align="right">Follow @paolifrancesco</a>
                 </p>
                 <p>
                     Oppure compilare il form seguente:
@@ -57,7 +57,6 @@ require_once ('include.php');
                     <img class="spinner" src="images/animated_progress.gif" width="32" alt="animated_progress"/>
                 </p>
                 <p class="output"></p>
-
             </form>
             <div class="clearfix"></div>
         </div>

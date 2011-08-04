@@ -5,7 +5,6 @@ require_once ('include.php');
 <?php get_html_tag();?>
     <head>
         <?php get_head('Info');?>
-        <title></title>
     </head>
     <body id="info">
         <div id="wrapper">

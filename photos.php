@@ -1,7 +1,6 @@
 <?php require_once('include.php');?>
     
 
-
 <!doctype html>
 <?php get_html_tag(); ?>
     <head>
@@ -10,9 +9,7 @@
     <body id="photo-page">
         <div id="wrapper">
             <?php get_header_bar('photos');?>
-
-            <!-- TEMP DISABLED	<div id="photo-content" > -->
-
+           
             <div class="photo-content-image photo-content-image-1 shadow">
                 <a href="gallery.php?id=0">
                 <p>
@@ -44,5 +41,4 @@
         </div><!-- END WRAPPER -->
          <?php get_scripts_tag() ?>
     </body>
-    
 </html>

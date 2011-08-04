@@ -28,9 +28,9 @@ $(document).ready(function() {
         });
     }
     
-   /* if(document.forms[0]!==null){
+     //init the form validation for sending emails
      InitFormValidation();
-     }*/
+     
     
 });
 

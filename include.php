@@ -33,8 +33,6 @@ function get_head($suff) {
           <link rel="apple-touch-icon" href="apple-touch-icon.png">
           <link rel="stylesheet" href="css/style.css?v=3">
           
-      <!--   <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />  -->
-      <!--    <link rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (min-width:200px) and (max-width:480px)"/> -->
       
       <script src="js/libs/modernizr-1.7.min.js"></script>
       ';
