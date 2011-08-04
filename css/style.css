@@ -177,12 +177,15 @@ a:hover { color: #036; }
 body {
     height:100%;
     font: 12px/12px  "DekarRegular" "Lucida Sans", "Lucida Grande", sans-serif;
-    -color: #000;
+    
+    
     background: #fdfdfd url(../images/bg-stripe.png) repeat scroll;
 }
 a {
     text-decoration:none;
     color: #000;
+    
+    
 }
 a:hover {
     text-decoration:none;
@@ -274,8 +277,10 @@ a:hover {
     text-align: right;
     border-bottom: 1px solid #666;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0;
     padding-right: 40px;
+    
+    line-height: 1em;
 }
 #landing .photo a:hover {
     color: #CCC;
@@ -306,7 +311,7 @@ a:hover {
     font-family: 'DekarRegular';
     margin-top: 20px; 
     padding:10px;
-   
+     line-height:1em;
     position: relative;
 }
 
@@ -331,15 +336,18 @@ opacity:.5;
     right:0; top:3px;
     font-family: 'DekarRegular';
     margin:15px 54px 15px 15px;
+  
    
 }
 #header ul.nav-menu li {
     margin-left: 30px;
     display: inline;
     text-transform: uppercase;
+    
 }
 #header ul.nav-menu li a {
     color: #aeaeae;
+    
     padding: 1px 5px;
 }
 #header ul.nav-menu li a.active {
@@ -388,6 +396,7 @@ opacity:.5;
 #header ul.sub-menu li a {
 color: #ddd;
 padding: 1px 5px;
+
 }
 
 /* Slideshow Gallery Content*/
@@ -434,6 +443,7 @@ padding: 1px 5px;
     width:inherit;
     height: inherit;
     display: block;
+    line-height: 1em;
     
 }
 .photo-content-image-1 {

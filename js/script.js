@@ -19,12 +19,14 @@ $(document).ready(function() {
     if($('body#bio').length) {
         $img = $('img.bio-image-content');
 
-        $img.load().animate({
+        $img.hide().delay(300).animate({
             opacity : 1,
             height : 'toggle'
         }, 1000, function() {
             // Animation complete.
         });
+        
+       
     }
     
      //init the form validation for sending emails
