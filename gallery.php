@@ -44,7 +44,7 @@ $gallery_folders = Array("images/gallery/hpano", "images/gallery/vpano", "images
         Galleria.loadTheme('js/mylibs/galleria/themes/classic/galleria.classic.min.js');
         $("#gallery").galleria({
             width: 1000,
-            height: 600,
+            height: 550,
             transition: 'fade',
             overlayOpacity: 0.8,
             thumbCrop: true,

@@ -11,8 +11,8 @@
         <div id="wrapper">
             <?php get_header_bar('home');?>
 
-            <div id="gallery-holder" class="shadow" >
-                <img src="images/ponte-della-musica.jpg" title="Ponte della Musica" alt="slideshow 1" width="690" height="495" />
+            <div id="picture">
+                <img class="shadow" src="images/ponte-della-musica.jpg" title="Ponte della Musica" alt="slideshow 1" width="690" />
             </div>
             <!-- END GALLERY HOLDER -->
             <?php get_footer()

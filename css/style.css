@@ -250,11 +250,11 @@ a:hover {
 
 
 #landing #container {
-    margin: 90px auto;
+    margin: 30px auto 10px;
     width: 690px;
 }
 #landing  img.header-img {
-    margin-bottom: 36px;
+    margin-bottom: 20px;
     display:block;
 }
 #landing div.photo {
@@ -397,27 +397,13 @@ opacity:.5;
     padding: 1px 5px;
 }
 
-/* Slideshow Gallery Content*/
-#gallery-holder {
-    position: relative;
-    width: 690px;
-    margin:30px auto 0;
-    height: 495px;
+/*
+ * index2 home page
+ */
+#picture img {
+margin: 30px auto;
 }
-#gallery-holder .slideshow-frame {
-    height:442px;
-    position:absolute;
-    top:0;
-    left: 0;
-    width:719px;
-    z-index: 10;
-}
-#gallery-holder .slideshow li {
-    height:442px;
-    position:absolute;
-    top:0;
-    width:719px
-}
+
 #footer {
     color: #666666;
     text-align: center;
