@@ -5,7 +5,7 @@
 function get_html_tag() {
     echo '<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
     <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
-    <!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+    <!--[if IE 7 ]>    <html class="no-js ie8" lang="en"> <![endif] VENANZI HACK per targettizzare ie7 e ie8 (era "class="no-js ie7")--> 
     <!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
     <!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->';
 }
