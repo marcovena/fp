@@ -401,7 +401,7 @@ opacity:.5;
  * index2 home page
  */
 #picture img {
-margin: 30px auto;
+      margin: 30px auto;
 }
 
 #footer {
@@ -809,6 +809,17 @@ top:-2px;
     border:1px solid #000;
 }
 
+/*
+ * Styles for IE8
+ */
+
+.ie8 div {
+    border: 1px solid red;
+}
+
+.ie8 #header {
+    line-height:2em;
+}
 
 /**
  * Non-semantic helper classes: please define your styles before this section.
