@@ -13,7 +13,7 @@
             <div class="photo-content-image photo-content-image-1 shadow">
                 <a href="gallery.php?id=0">
                 <p>
-                    Pano Orizzontali
+                    Panoramiche Orizzontali
                 </p>
                 </a>
             </div>
@@ -22,7 +22,7 @@
 
                 <a href="gallery.php?id=1">
                 <p>
-                     Pano Verticali
+                     Panoramiche Verticali
                 </p>
                 </a>
             </div>
@@ -30,7 +30,7 @@
 
                 <a href="gallery.php?id=2">
                 <p>
-                    Antaniche
+                    Sceneries
                 </p>
                 </a>
             </div>

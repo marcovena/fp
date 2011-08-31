@@ -12,7 +12,7 @@ require_once ('include.php');
             <div id="info-wrapper">
                 <div class="info-text">
                     <p>
-                        Tutte le opere sono disponibili in edizione limitata e in diversi formati di stampa e riprodotte con stampanti e inchiostri professionali di altissima qualità e corredate di certificazione Digigraphie® di Epson.
+                        Tutte le opere sono disponibili in edizione limitata e in diversi formati di stampa, riprodotte con stampanti e inchiostri professionali di altissima qualità e corredate di certificazione Digigraphie® di Epson.
                     </p>
                     <p>
                         Passando il mouse nel riquadro in alto a sinistra dell’immagine è possibile visualizzare l’immagine alla massima risoluzione, apprezzandone il livello di dettaglio ed avendo un’idea più precisa del risultato in stampa.
