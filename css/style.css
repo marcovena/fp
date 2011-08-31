@@ -178,13 +178,12 @@ body {
     height:100%;
     font: 12px/12px  "DekarRegular" "Lucida Sans", "Lucida Grande", sans-serif;
     
-    
     background: #fdfdfd url(../images/bg-stripe.png) repeat scroll;
 }
+
 a {
     text-decoration:none;
     color: #000;
-    
     
 }
 a:hover {
@@ -394,9 +393,8 @@ opacity:.5;
 }
 
 #header ul.sub-menu li a {
-color: #aeaeae;
-padding: 1px 5px;
-
+    color: #aeaeae;
+    padding: 1px 5px;
 }
 
 /* Slideshow Gallery Content*/
@@ -875,6 +873,8 @@ top:-2px;
 /* Grade-A Mobile Browsers (Opera Mobile, Mobile Safari, Android Chrome)
    consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
 @media screen and (max-device-width: 480px) {
+    
+    
 
 
   /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you: j.mp/textsizeadjust */

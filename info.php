@@ -28,7 +28,7 @@ require_once ('include.php');
             </div>
             
         <div id="footer">
-            © All rights reserved - Francesco Paoli 2011&nbsp;
+            &copy; All rights reserved - Francesco Paoli 2011&nbsp;
         </div>
         </div><!-- END info-wrapper -->
         <?php get_scripts_tag();?>

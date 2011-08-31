@@ -30,6 +30,17 @@
     right: 10px;
     z-index: 2;
 }
+
+
+/*
+ * VENANZI: aggiunto per mettere le thumbs centrate
+ */
+.galleria-thumbnails {
+    margin:0 auto;
+    *border:1px solid red; 
+    
+}
+
 .galleria-carousel .galleria-thumbnails-list {
     margin-left: 30px;
     margin-right: 30px;
