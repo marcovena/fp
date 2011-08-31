@@ -43,7 +43,7 @@ function get_header_bar($forPage) {
     $gallery_id = -1;
 
     /*echo '<div id="header" class="not-selectable">
-     <a class="home-logo " href="index2.php" title="index2">
+     <a class="home-logo " href="index2.php" title="Francesco Paoli - Fine Art Photography">
      <div id="header-brand">
      <h2>FRANCESCO PAOLI</h2>
      <div id="header-divider">
@@ -52,7 +52,7 @@ function get_header_bar($forPage) {
      </div></a> */
 
     echo '<div id="header" class="not-selectable">
-                <a class="home-logo" href="index2.php" title="index2"> 
+                <a class="home-logo" href="index2.php" title="Francesco Paoli - Fine Art Photography"> 
                 
                 </a><div id="header-divider"></div>
                 <ul class="nav-menu">
