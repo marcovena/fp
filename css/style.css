@@ -258,17 +258,18 @@ a:hover {
     display:block;
 }
 #landing div.photo {
-    width: 690px;
-    height: 455px;
+    width: 900px;
+    height: 300px;
     background-image: url('../images/land-main.jpg');
     position:relative;
+    margin-left: -105px; 
 }
 #landing a.click{
     position:absolute;
     right:0;
     bottom: 0;
-    color: #AAA;
-    -text-shadow: #AAA 1px 1px 2px;
+    color: #666;
+    text-shadow: #DDD 0px 1px 1px;
    
     font-family: 'DekarRegular';
     font-size: 32pt;
@@ -282,18 +283,20 @@ a:hover {
     line-height: 1em;
 }
 #landing .photo a:hover {
-    color: #CCC;
+    color: #666s;
     border-bottom: 1px solid #DDD;
-    text-shadow: rgba(255, 255,255, .3) 3px 3px 6px;
+    text-shadow: rgba(130, 130, 130, .8) 0px 0px 3px;
    
-     -webkit-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
     -moz-transition:All .5s ease;
     -o-transition:All .5s ease;
    
 }
 
 
-/*||||||||||||| END LANDING PAGE |||||||||||||| */
+/*
+ * END LANDING PAGE 
+ * */
 
 
 /* wrapper usato su molte pagine*/
@@ -768,7 +771,8 @@ top:-2px;
 /*FINE DEI MIEI STILI*/
 
 /*
- * CLOUD ZOOM  
+ * CLOUD ZOOM 
+ * Cloud Zoom e' lo zoom plugin utilizzato in info.php 
  */
 
 
@@ -811,11 +815,9 @@ top:-2px;
  
 /*
  * Styles for IE8
+ * in questa sezione aggiungo i fix per internet explorer
  */
 
-.ie8 div {
-    border: 1px solid red;
-}
 
 .ie8 #header {
     line-height:2em;

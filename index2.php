@@ -12,7 +12,7 @@
             <?php get_header_bar('home');?>
 
             <div id="picture">
-                <img class="shadow" src="images/ponte-della-musica.jpg" alt="slideshow 1" width="900" />
+                <img class="shadow" src="images/dune.jpg" alt="slideshow 1" width="900" />
             </div>
             <!-- END GALLERY HOLDER -->
             <?php get_footer()

@@ -74,14 +74,14 @@ function get_header_bar($forPage) {
                                 <a ' . ($gallery_id == 1 ? 'class="active"' : null) . ' href="gallery.php?id=1">Pano Verticali</a>
                             </li>
                             <li>
-                                <a ' . ($gallery_id == 2 ? 'class="active"' : null) . ' href="gallery.php?id=2">Sblinde</a>
+                                <a ' . ($gallery_id == 2 ? 'class="active"' : null) . ' href="gallery.php?id=2">Sceneries</a>
                             </li>
                         </ul>';
     }
 
     echo '</li>
                     <li>
-                        <a href="info.php" ',   addActive($forPage, 'info'), ' >Info</a>
+                        <a href="info.php" ',   addActive($forPage, 'info'), ' >Stampe</a>
                     </li>
                     <li>
                         <a href="bio.php" ',  addActive($forPage, 'bio'), ' >Bio</a>
