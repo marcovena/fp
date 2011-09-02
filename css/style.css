@@ -613,7 +613,7 @@ opacity:.5;
 
 #info-wrapper {
     margin:0 auto;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .info-text {
     font-family: 'DekarRegular';
@@ -635,7 +635,17 @@ opacity:.5;
 .info-text a {
     text-decoration: underline;
 }
-.info-image img {
+
+
+.image-dropback {
+    background-image: url(../images/zoom-sample-small.jpg) ;
+   
+    height:284px; 
+    
+    padding-top:38px;
+    
+    width:260px;
+   
     -webkit-box-shadow: 1px 1px 6px #777;
     -moz-box-shadow: 1px 1px 6px #777;
     -ms-box-shadow: 1px 1px 6px #777;
@@ -663,7 +673,7 @@ opacity:.5;
     font-size: 11pt;
     line-height:1.3em;
     
-    margin: 50px auto;
+    margin: 20px auto;
     
     width:800px;
 }
