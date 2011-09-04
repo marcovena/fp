@@ -636,6 +636,9 @@ opacity:.5;
     text-decoration: underline;
 }
 
+a.cloud-zoom { /* fix per il link che andava oltre la finestra di zoom */
+    width:96px;
+}
 
 .image-dropback {
     background-image: url(../images/zoom-sample-small.jpg) ;
@@ -645,12 +648,14 @@ opacity:.5;
     padding-top:38px;
     
     width:260px;
+    
    
     -webkit-box-shadow: 1px 1px 6px #777;
     -moz-box-shadow: 1px 1px 6px #777;
     -ms-box-shadow: 1px 1px 6px #777;
      box-shadow: 1px 1px 6px  #777;
 }
+
 
 .info-image{
     margin: 70px 160px 0 0;

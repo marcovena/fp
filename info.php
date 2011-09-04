@@ -26,8 +26,8 @@ require_once ('include.php');
                 <div class="image-dropback">
                     <a href="images/zoom-sample.jpg" class="cloud-zoom" rel="position: 'left' , zoomWidth: 260, zoomHeight: 323, adjustX: -30, adjustY: -40">
                     <img src="images/zoom-sample-block.jpg" alt="image sample" width="96"/>
-                    </a>
-                    </img>
+                    
+                    </img></a>
                 </div>
             </div>
             <div class="clearfix"></div>
