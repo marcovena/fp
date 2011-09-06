@@ -4,13 +4,13 @@
 $smtp_server = 'smtp.francescopaoli.com';
 $username = '2933995@aruba.it';
 $password = 'cun2ax4j';
-$target_email = "info@francescopaoli.com";
+//$target_email = "info@francescopaoli.com";
 
 //configurazione dev
 //$smtp_server = 'mail.marcovenanzi.com';
 //$username = 'hi@marcovenanzi.com';
 //$password = 'benebene';
-//$target_email = "marcovena@libero.it";
+$target_email = "marcovena@libero.it";
 
 
 //testo e campi statici mail

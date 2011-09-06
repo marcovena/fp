@@ -14,7 +14,7 @@ require_once ('include.php');
                     Tutte le opere sono disponibili per la stampa in edizione limitata e in diversi formati, riprodotte con stampanti e inchiostri professionali di altissima qualità e corredate di certificazione Digigraphie® di Epson.
                 </p>
                 <p>
-                    Per comprendere meglio il livello di dettaglio e la qualità raggiungibili in fase di stampa, è possibile passare il mouse sull'immagine alla destra e visualizzare un'anteprima ad alta risoluzione di una parte dell'immagine.
+                    Per comprendere meglio il livello di dettaglio e la qualità raggiungibili in fase di stampa, è possibile visualizzare un'anteprima ad alta risoluzione passando il mouse all'interno del riquadro nero.
                 </p>
                 <p>
                     Per una resa più fedele dei colori si consiglia la visualizzazione su monitor calibrati.
