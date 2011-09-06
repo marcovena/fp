@@ -1,25 +1,30 @@
 <?php
 
-//configurazione prod
-$smtp_server = 'smtp.francescopaoli.com';
-$username = '2933995@aruba.it';
-$password = 'cun2ax4j';
-//$target_email = "info@francescopaoli.com";
+//set up environment
+define ($DEV_ENVIRONMENT, 1);
+//enable debug
+define ($DEBUG, 1);
 
-//configurazione dev
-//$smtp_server = 'mail.marcovenanzi.com';
-//$username = 'hi@marcovenanzi.com';
-//$password = 'benebene';
-$target_email = "marcovena@libero.it";
+
+if($DEV_ENVIRONMENT==0){
+    //configurazione prod
+    $smtp_server = 'smtp.francescopaoli.com';
+    $username = '2933995@aruba.it';
+    $password = 'cun2ax4j';
+    $target_email = "info@francescopaoli.com";
+} else {
+	//configurazione dev
+    $smtp_server = 'mail.marcovenanzi.com';
+    $username = 'hi@marcovenanzi.com';
+    $password = 'benebene';
+    $target_email = "marcovena@libero.it";
+        
+}
 
 
 //testo e campi statici mail
 $subject = "Richiesta informazioni - www.francescopaoli.com";
 
- 
-
-//enable debug
-$DEBUG = 0;
 
 if($DEBUG) {
     error_reporting(E_ALL);
