@@ -82,7 +82,7 @@
         </else>
     </if>
     <!-- funky order due to jpegtran being a jerk. See comment at top of imagesjpg task -->
-    <antcall target="-jpgcopy"/>
+    <antcall target="-jpgcopy"/> 
     </target>
 
 
@@ -236,7 +236,7 @@
                      -js.mylibs.concat,
                      -js.scripts.concat,
                      -js.delete,
-                     -strip-console.log,
+                     
                      -css,
                      -html,
                      -htmlclean"/>
