@@ -1,24 +1,26 @@
 <?php
 
 //set up environment
-define ($DEV_ENVIRONMENT, 1);
+$DEV_ENVIRONMENT=1;
 //enable debug
-define ($DEBUG, 1);
+$DEBUG=0;
 
 
 if($DEV_ENVIRONMENT==0){
     //configurazione prod
+    echo "Prod settings";
     $smtp_server = 'smtp.francescopaoli.com';
     $username = '2933995@aruba.it';
     $password = 'cun2ax4j';
     $target_email = "info@francescopaoli.com";
 } else {
 	//configurazione dev
+    echo 'Dev settings';   
     $smtp_server = 'mail.marcovenanzi.com';
     $username = 'hi@marcovenanzi.com';
     $password = 'benebene';
-    $target_email = "marcovena@libero.it";
-        
+    //$target_email = "marcovena@gmail.com";
+    $target_email = "info@francescopaoli.com";
 }
 
 
@@ -39,11 +41,11 @@ if(isset($_POST['submit'])) {
     $msg = trim($_POST['text']);
 
     
-    echo 'Validation start';
+    echo '\nValidation start\n';
     //validate name
     if(empty($name_field)) {
         $hasError = true;
-        echo 'Name field is empty';
+        echo '\nName field is empty';
     } else {
         $name_field_san = $name_field;
     }
@@ -51,10 +53,10 @@ if(isset($_POST['submit'])) {
     //validate email
     if(empty($email_field)) {
         $hasError = true;
-        echo 'Mail field is empty';
+        echo '\nMail field is empty';
     } elseif(0 == preg_match("/^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$/", $email_field)) {
         $hasError = true;
-        echo 'There is an error in the mail formatting: , $email_field';
+        echo '\nThere is an error in the mail formatting: , $email_field';
     } else {
         $email_san = $email_field;
     }
@@ -62,13 +64,13 @@ if(isset($_POST['submit'])) {
     //validate msg
     if(empty($msg)) {
         $hasError = true;
-        echo 'Mail Body is empty';
+        echo '\nMail Body is empty';
     }
 
     if(!isset($hasError) || $hasError == false) {
         
-        $body = "<strong>From: </strong> $name_field_san </br> <strong>E-Mail:</strong> $email_san </br> 
-            <strong>Sito Web: </strong> $website </br> <strong>Messaggio: </strong>$msg </br>";
+        $body = "<div style=\"color:#444\" <br><strong>From: </strong> $name_field_san </br> <strong>E-Mail:</strong> $email_san </br> 
+            <strong>Sito Web: </strong> $website </br></br> <div style=\"color:black\"><strong>Messaggio: </strong>$msg </br></div></div>";
 
         if($DEBUG) {
                 var_dump($body);
@@ -94,7 +96,7 @@ if(isset($_POST['submit'])) {
 
         //Send the message
         $result = $mailer -> send($message);
-        echo 'Sent mail';
+        
         if($DEBUG) {
             echo "Email Result: $result";
         }
