@@ -81,7 +81,7 @@ function get_header_bar($forPage) {
 
     echo '</li>
                     <li>
-                        <a href="info.php" ',   addActive($forPage, 'info'), ' >Stampe</a>
+                        <a href="stampe.php" ',   addActive($forPage, 'info'), ' >Stampe</a>
                     </li>
                     <li>
                         <a href="bio.php" ',  addActive($forPage, 'bio'), ' >Bio</a>
