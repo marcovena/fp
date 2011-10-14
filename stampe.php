@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require_once ('include.php');
 ?>
 <!doctype html> <?php get_html_tag();?>
@@ -12,6 +12,10 @@ require_once ('include.php');
             <div class="info-text">
                 <p>
                     Tutte le opere sono disponibili per la stampa in edizione limitata e in diversi formati, riprodotte con stampanti e inchiostri professionali di altissima qualità e corredate di certificazione Digigraphie® di Epson.
+                </p>
+                <p>
+                    La maggior parte della collezione fotografica è stata prodotta utilizzando una macchina panoramica medio formato Fuji.
+La scelta di questa macchina a  pellicola, al top tra le fotocamere panoramiche e tra le uniche dotate di telemetro, riflette l'approccio purista dell'autore alla fotografia, nella consapevolezza che determinati concetti e tecniche fotografiche siano la chiave per rendere ancor più uniche le proprie opere.
                 </p>
                 <p>
                     Per comprendere meglio il livello di dettaglio e la qualità raggiungibili in fase di stampa, è possibile visualizzare un'anteprima ad alta risoluzione passando il mouse all'interno del riquadro nero.

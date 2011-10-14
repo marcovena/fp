@@ -1,4 +1,4 @@
-/**
+﻿/**
  * HTML5 ✰ Boilerplate
  *
  * style.css contains a reset, font normalization and some base styles.
@@ -617,9 +617,9 @@ opacity:.5;
 }
 .info-text {
     font-family: 'DekarRegular';
-    font-size: 14pt;
+    font-size: 11pt;
     line-height:1.3em;
-    margin: 60px 60px 160px 110px;
+    margin: 20px 60px 160px 110px;
     
     position:relative;
     
@@ -658,7 +658,7 @@ a.cloud-zoom { /* fix per il link che andava oltre la finestra di zoom */
 
 
 .info-image{
-    margin: 70px 160px 0 0;
+    margin: 38px 160px 0 0;
     float:right;
 }
 .epson-logo{
