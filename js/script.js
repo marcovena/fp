@@ -8,6 +8,18 @@ $(document).ready(function() {
         $('.sub-menu').delay(300).fadeIn(400);
     }
 
+
+    //TODO:da testare
+    //disabilita il click su il gallery di stampe (loading...)
+    $('.info-image','#info .wrap').unbind('click');
+
+    //Disabilita il right click
+    $('#gallery').live("contextmenu", function(e) {
+                e.preventDefault();
+            });
+            
+    
+
     //enable theme switcher
     var loc = window.location;
     var enableString = "toggle=1";
