@@ -1,5 +1,5 @@
-﻿/**
- * HTML5 ✰ Boilerplate
+/**
+ * HTML5 ? Boilerplate
  *
  * style.css contains a reset, font normalization and some base styles.
  *
@@ -132,8 +132,8 @@ input:invalid, textarea:invalid {
 /* These selection declarations have to be separate
    No text-shadow: twitter.com/miketaylr/status/12228805301
    Also: hot pink! */
-::-moz-selection{ background: #EEE; color:#555; text-shadow: none; }
-::selection { background:#EEE; color:#555; text-shadow: none; }
+::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }
 
 /* j.mp/webkit-tap-highlight-color */
 a:link { -webkit-tap-highlight-color: #FF5E99; }
@@ -658,13 +658,13 @@ a.cloud-zoom { /* fix per il link che andava oltre la finestra di zoom */
 
 
 .info-image{
-    margin: 38px 160px 0 0;
+    margin: 70px 160px 0 0;
     float:right;
 }
 .epson-logo{
     background: transparent url(../images/epson-logo.gif) top left ;
-    width: 59px;
-    height: 47px;
+    width: 180px;
+    height: 31px;
     position: absolute;
     right:0;
     margin-top:37px;
