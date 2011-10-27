@@ -56,11 +56,14 @@ require_once ('include.php');
                     <input type="submit" name="submit" value="Invia" />
                     <img class="spinner" src="images/animated_progress.gif" width="32" alt="animated_progress"/>
                 </p>
-                <p class="output"></p>
+                
             </form>
             <div class="clearfix"></div>
         </div>
         <!-- END WRAPPER -->
+         <div id="footer">
+            &copy; All rights reserved - Francesco Paoli 2011 
+        </div>
     </div>
     <?php get_scripts_tag()
     ?>

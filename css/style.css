@@ -132,8 +132,8 @@ input:invalid, textarea:invalid {
 /* These selection declarations have to be separate
    No text-shadow: twitter.com/miketaylr/status/12228805301
    Also: hot pink! */
-::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
-::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+::-moz-selection{ background: #DDDDDD; color:#fff; text-shadow: none; }
+::selection { background:#DDDDDD; color:#fff; text-shadow: none; }
 
 /* j.mp/webkit-tap-highlight-color */
 a:link { -webkit-tap-highlight-color: #FF5E99; }
@@ -507,7 +507,7 @@ opacity:.5;
 
 /* CONTACT FORM */
 #contact-wrapper input, #contact-wrapper textarea {
-    padding: 9px;
+    padding: 7px;
     border: solid 1px #E5E5E5;
     outline: 0;
     font: normal 11px/100% Verdana, Tahoma, sans-serif;
@@ -561,7 +561,8 @@ opacity:.5;
 
 #contact-wrapper .form p {
     margin-bottom: 10px;
-    position: relative;
+    position:relative;
+    
 }
 #contact-wrapper .submit input {
     width: auto;
@@ -574,22 +575,25 @@ opacity:.5;
     -webkit-border-radius: 5px;
     border-radius:5px;
     cursor: pointer;
+  
 }
+ 
 #contact-wrapper img.spinner {
     display:none;
     margin-left: 20px;
 }
 #contact-wrapper .output {
-    background-color: #c7ffc1;
-    color:#008000;
+     background-color: #c7ffc1;
+     color:#008000;
     
-    
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: bold;
     padding:20px 5px;
     
     text-align: center;
     display: none;
+    
+    
 }
 
 #contact-wrapper label.error {
@@ -662,12 +666,14 @@ a.cloud-zoom { /* fix per il link che andava oltre la finestra di zoom */
     float:right;
 }
 .epson-logo{
-    background: transparent url(../images/epson-logo.gif) top left ;
-    width: 180px;
-    height: 31px;
+    background: transparent url(../images/hahnemuhle-logo.gif) no-repeat top left ;
+    width: 250px;
+    height: 64px;
     position: absolute;
     right:0;
     margin-top:37px;
+    
+    background-size: 100%;
 }
 
 /******************* ************* ***********************
