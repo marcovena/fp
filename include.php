@@ -29,7 +29,7 @@ function get_head($suff) {
 
           <link rel="shortcut icon" href="favicon.ico"> 
           <link rel="apple-touch-icon" href="apple-touch-icon.png">
-          <link rel="stylesheet" href="css/style.css?v=3">
+          <link rel="stylesheet" href="css/style.css?v=4">
           
       
           <script src="js/libs/modernizr-1.7.min.js"></script>

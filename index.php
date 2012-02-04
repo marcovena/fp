@@ -15,7 +15,7 @@
         <div id="container">
             <img class="header-img" alt="francesco paoli photography" src="images/nome.png" />
 
-            <div class="photo shadow">
+            <div class="photo">
                 <a class="click" href="index2.php">Click to enter</a>
             </div>
             <?php get_footer()
